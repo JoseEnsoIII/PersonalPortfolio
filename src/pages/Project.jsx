@@ -17,7 +17,7 @@ export const Projects = () => {
           <div className="">
             <a
               className=""
-              href="https://wayfarer-beta.vercel.app/"
+              href="https://www.metacoresystemsinc.com"
               target="_blank"
             >
               <motion.div
@@ -76,7 +76,7 @@ export const Projects = () => {
         {/* 2nd Project */}
         <div className="bg-white rounded-xl shadow-md xl:flex xl:flex-row-reverse  items-start p-10   gap-5 mt-10">
           <div className="">
-            <a className="" href="https://cartimar.vercel.app/" target="_blank">
+            <a className="" href="https://www.oneluxor.ph/" target="_blank">
               <motion.div
                 initial={{ opacity: 0, x: 50 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -134,7 +134,7 @@ export const Projects = () => {
           <div className="">
             <a
               className=""
-              href="https://todo-app-five-opal.vercel.app/"
+              href="https://joseensoiii.github.io/IG-Clone/"
               target="_blank"
             >
               <motion.div
@@ -198,7 +198,7 @@ export const Projects = () => {
           <div className="">
             <a
               className=""
-              href="https://dictionary-ten-ashy.vercel.app/"
+              href="#"
               target="_blank"
             >
               <motion.div
@@ -255,7 +255,7 @@ export const Projects = () => {
           <div className="">
             <a
               className=""
-              href="https://rieevans.github.io/jobportal.github.io/"
+              href="https://joseensoiii.github.io/JJAM-EVENT-MANAGEMENT/"
               target="_blank"
             >
               <motion.div
