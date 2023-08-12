@@ -231,20 +231,15 @@ export const Projects = () => {
             </motion.p>
             <div className="flex gap-5 justify-center">
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                Codeigniter3
+                Codeigniter3, 
               </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                PHP
+                PHP, SQL
               </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                SQL
+                AJAX, JQUERY
               </span>
-              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                AJAX
-              </span>
-              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                JQUERY
-              </span>
+              
             </div>
             <div className="flex gap-5 items-center justify-center"></div>
           </div>
