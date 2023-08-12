@@ -52,7 +52,7 @@ export const About = () => {
           <div className="relative z-50">
             <img
               className="w-full h-full rounded-xl h-full z-50 "
-              src="/images/about.png"
+              src="/images/OIP.jpg"
               alt=""
             />
             <div className="rounded-full bg-blue-400 absolute w-[60px] h-[60px] top-0 z-0"></div>
