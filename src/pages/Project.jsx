@@ -196,11 +196,7 @@ export const Projects = () => {
         {/* 4th Project */}
         <div className="bg-white rounded-xl shadow-md xl:flex xl:flex-row-reverse items-start p-10   gap-5 mt-10">
           <div className="">
-            <a
-              className=""
-              href="#"
-              target="_blank"
-            >
+            <a className="" href="#" target="_blank">
               <motion.div
                 initial={{ opacity: 0, x: 50 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -217,9 +213,7 @@ export const Projects = () => {
             </a>
           </div>
           <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5   ">
-            <h1 className="text-center font-bold text-[20px] ">
-              CI3-ERP
-            </h1>
+            <h1 className="text-center font-bold text-[20px] ">CI3-ERP</h1>
             <motion.p
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -227,7 +221,10 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-              Creating a comprehensive Point of Sale (POS) system tailored for a rice dealership, streamlining inventory management, sales transactions, and financial tracking to optimize business operations.
+              Creating a comprehensive Point of Sale (POS) system tailored for a
+              rice dealership, streamlining inventory management, sales
+              transactions, and financial tracking to optimize business
+              operations.
             </motion.p>
             <div className="flex gap-5 justify-center">
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
@@ -237,9 +234,8 @@ export const Projects = () => {
                 PHP SQL
               </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                AJAX  JQUERY
+                AJAX JQUERY
               </span>
-              
             </div>
             <div className="flex gap-5 items-center justify-center"></div>
           </div>
@@ -309,6 +305,56 @@ export const Projects = () => {
             </div>
           </div>
         </div>
+
+        
+        {/* 6th Project */}
+        <div className="bg-white rounded-xl shadow-md xl:flex items-start p-10   gap-5 mt-10">
+          <div className="">
+            <a
+              className=""
+              href="https://joseensoiii.github.io/JJAM-EVENT-MANAGEMENT/"
+              target="_blank"
+            >
+              <motion.div
+                initial={{ opacity: 0, x: -50 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+                viewport={{ once: true }}
+                className="w-full"
+              >
+                <img
+                  className="w-full h-full object-cover rounded-xl shadow-mmd border-t border-l border-slate-600"
+                  src="/images/z.PNG"
+                  alt=""
+                />
+              </motion.div>
+            </a>
+          </div>
+          <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5   ">
+            <h1 className="text-center font-bold text-[20px] ">
+             UI/UX of our School SMS
+            </h1>
+            <motion.p
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+              viewport={{ once: true }}
+              className="text-center text-gray-500"
+            >
+              I created my own version of an SMS eLearning website's UI/UX design using Figma.
+            </motion.p>
+            <div className="flex gap-5 justify-center">
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600 ">
+                FIGMA
+              </span>
+              
+            </div>
+            <div className="flex gap-5 items-center justify-center">
+             
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
   );
