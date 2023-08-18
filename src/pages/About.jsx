@@ -75,14 +75,7 @@ export const About = () => {
             viewport={{ once: true, amount: 0.8 }}
             className=" opacity-60"
           >
-            I am a passionate front-end developer with a strong foundation in
-            React, capable of creating engaging user interfaces that blend both
-            aesthetics and functionality seamlessly. Beyond front-end
-            technologies, I possess expertise in Express.js, MongoDB, and
-            Node.js, enabling me to design and develop full-stack applications
-            that deliver robust and efficient user experiences. With a growing
-            familiarity in Flutter and Vite.js, I am constantly expanding my
-            skill set to craft dynamic and responsive digital solutions.
+           I am a graduate of computer engineering and a passionate front-end developer with a strong foundation in React. I'm capable of creating engaging user interfaces that blend both aesthetics and functionality seamlessly. Beyond front-end technologies, I possess expertise in Express.js, MongoDB, and Node.js, enabling me to design and develop full-stack applications that deliver robust and efficient user experiences. With a growing familiarity in Flutter and Vite.js, I am constantly expanding my skill set to craft dynamic and responsive digital solutions. I'm enthusiastic about tackling new challenges and contributing to innovative projects in the technology landscape.
           </motion.p>
         </motion.div>
       </motion.div>
