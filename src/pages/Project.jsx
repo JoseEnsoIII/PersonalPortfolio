@@ -166,11 +166,14 @@ export const Projects = () => {
               photo sharing.
             </motion.p>
             <div className="flex gap-5 justify-center">
-              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                React
+               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+                HTML
               </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                Tailwind
+                CSS
+              </span>
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+                JAVASCRIPT
               </span>
             </div>
             <div className="flex gap-5 items-center justify-center">
