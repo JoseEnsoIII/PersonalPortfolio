@@ -43,6 +43,20 @@ export const Contact = () => {
                 <p className=" text-blue-600 whitespace-normal">joseensothethird@gmail.com </p>
               </div>
             </div>
+
+            <div className="p-5 rounded-full shadow-mmd border-t border-l border-slate-900 flex items-center gap-1 sm:mt-5 md:mt-0 ">
+              <div className="w-[40px]">
+                <img
+                  className="w-full h-full object-cover"
+                  src="/images/resume.jpg"
+                  alt=""
+                />
+              </div>
+              <div>
+                <p className="font-bold">Resume</p>
+               <a href="" className=" text-blue-600 whitespace-normal">Click Here</a> 
+              </div>
+            </div>
           </div>
         </div>
       </div>
