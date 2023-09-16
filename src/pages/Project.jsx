@@ -61,6 +61,14 @@ export const Projects = () => {
               </span>
             </div>
             <div className="flex gap-5 items-center justify-center">
+               <a
+                className="flex font-semibold items-center justify-between gap-2 "
+                href="https://github.com/JoseEnsoIII/ITSolutions.inc"
+                target="_blank"
+              >
+                Code{" "}
+                <i className="fa-solid fa-share-from-square text-2xl"></i>
+              </a>
               <a
                 className="flex font-semibold items-center justify-between gap-2 "
                 href="https://itsolutions-inc.vercel.app/"
