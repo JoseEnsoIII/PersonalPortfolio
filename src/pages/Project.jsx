@@ -67,7 +67,7 @@ export const Projects = () => {
                 target="_blank"
               >
                 Code{" "}
-                <i className="fa-solid fa-share-from-square text-2xl"></i>
+                <i className="fa-brands fa-github text-2xl"></i>
               </a>
               <a
                 className="flex font-semibold items-center justify-between gap-2 "
