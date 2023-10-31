@@ -54,7 +54,7 @@ export const Contact = () => {
               </div>
               <div>
                 <p className="font-bold">Resume</p>
-               <a href="https://resume-f3nhvvwp8-joseensoiii.vercel.app/" className=" text-blue-600 whitespace-normal">Click Here</a> 
+               <a href="https://drive.google.com/drive/folders/11-LxAS0yygZILPsmG0Q4ew3vJwnJTlYo?usp=drive_link" className=" text-blue-600 whitespace-normal">Click Here</a> 
               </div>
             </div>
           </div>

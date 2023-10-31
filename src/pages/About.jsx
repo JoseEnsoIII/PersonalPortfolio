@@ -52,7 +52,7 @@ export const About = () => {
           <div className="relative z-50">
             <img
               className="w-full h-full rounded-xl h-full z-50 "
-              src="/images/OIP.jpg"
+              src="/images/bcp.jpg"
               alt=""
             />
             <div className="rounded-full bg-blue-400 absolute w-[60px] h-[60px] top-0 z-0"></div>
@@ -73,10 +73,11 @@ export const About = () => {
             initial="offScreen"
             whileInView="onScreen"
             viewport={{ once: true, amount: 0.8 }}
-            className=" opacity-60"
+            className="opacity-60"
           >
-           I am a graduate of computer engineering and a passionate front-end developer with a strong foundation in React. I'm capable of creating engaging user interfaces that blend both aesthetics and functionality seamlessly. Beyond front-end technologies, I possess expertise in Express.js, MongoDB, and Node.js, enabling me to design and develop full-stack applications that deliver robust and efficient user experiences. With a growing familiarity in Flutter and Vite.js, I am constantly expanding my skill set to craft dynamic and responsive digital solutions. I'm enthusiastic about tackling new challenges and contributing to innovative projects in the technology landscape.
+            I am a graduate of computer engineering and a passionate front-end developer with a strong foundation in React. I'm capable of creating engaging user interfaces that blend both aesthetics and functionality seamlessly. Beyond front-end technologies, I possess expertise in Express.js, MongoDB, and Node.js, enabling me to design and develop full-stack applications that deliver robust and efficient user experiences. With a growing familiarity in Angular, Vue.js, PHP, and Arduino C++, I am constantly expanding my skill set to craft dynamic and responsive digital solutions. I'm enthusiastic about tackling new challenges and contributing to innovative projects in the technology landscape.
           </motion.p>
+
         </motion.div>
       </motion.div>
     </section>

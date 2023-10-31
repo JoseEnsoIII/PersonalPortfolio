@@ -46,6 +46,15 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
+             My Internship Project 
+            </motion.p>
+            <motion.p
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+              viewport={{ once: true }}
+              className="text-center text-gray-500"
+            >
               Empowering businesses through innovative IT solutions to drive
               efficiency, growth, and digital transformation.
             </motion.p>
@@ -76,7 +85,7 @@ export const Projects = () => {
         {/* 2nd Project */}
         <div className="bg-white rounded-xl shadow-md xl:flex xl:flex-row-reverse  items-start p-10   gap-5 mt-10">
           <div className="">
-            <a className="" href="https://www.oneluxor.ph/" target="_blank">
+            <a className="" href="https://travel-website-ph.vercel.app/" target="_blank">
               <motion.div
                 initial={{ opacity: 0, x: 50 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -86,14 +95,23 @@ export const Projects = () => {
               >
                 <img
                   className="w-full h-full object-cover rounded-xl shadow-mmd border-t border-l border-slate-600"
-                  src="/images/project3.jpg"
+                  src="/images/ta.png"
                   alt=""
                 />
               </motion.div>
             </a>
           </div>
           <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5   ">
-            <h1 className="text-center font-bold text-[20px] ">OneLuxor</h1>
+            <h1 className="text-center font-bold text-[20px] ">Travel Agency</h1>
+            <motion.p
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+              viewport={{ once: true }}
+              className="text-center text-gray-500"
+            >
+             My Internship Project 
+            </motion.p>
             <motion.p
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -119,7 +137,7 @@ export const Projects = () => {
             <div className="flex gap-5 items-center justify-center">
               <a
                 className="flex font-semibold items-center justify-between gap-2 "
-                href="https://www.oneluxor.ph/"
+                href="https://travel-website-ph.vercel.app/"
                 target="_blank"
               >
                 Live Demo{" "}
@@ -129,7 +147,78 @@ export const Projects = () => {
           </div>
         </div>
 
-        {/* 3rd Project */}
+        <div className="bg-white rounded-xl shadow-md xl:flex xl:flex-row-reverse  items-start p-10   gap-5 mt-10">
+          <div className="">
+            <a className="" href="https://reactfl1x.vercel.app/" target="_blank">
+              <motion.div
+                initial={{ opacity: 0, x: 50 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+                viewport={{ once: true }}
+                className="w-full"
+              >
+                <img
+                  className="w-full h-full object-cover rounded-xl shadow-mmd border-t border-l border-slate-600"
+                  src="/images/rf.png"
+                  alt=""
+                />
+              </motion.div>
+            </a>
+          </div>
+          <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5   ">
+            <h1 className="text-center font-bold text-[20px] ">ReactFlix</h1>
+            <motion.p
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+              viewport={{ once: true }}
+              className="text-center text-gray-500"
+            >
+             My Self Project 
+            </motion.p>
+            <motion.p
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+              viewport={{ once: true }}
+              className="text-center text-gray-500"
+            >
+              ReactFlix is a free ad-free movie streaming app offering over 10,000 movies and TV series, with the option to download content from MoviesCloud for offline viewing, all without the need to register or pay.
+            </motion.p>
+            <div className="flex gap-5 justify-center">
+            <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+                Mysql
+              </span>
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+                Express
+              </span> <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+                React
+              </span>
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+               Node.js
+              </span>
+            </div>
+            <div className="flex gap-5 items-center justify-center">
+            <a
+                className="flex font-semibold items-center justify-between gap-2"
+                href="https://github.com/JoseEnsoIII/REACT"
+                target="_blank"
+              >
+                Code <i className="fa-brands fa-github text-2xl"></i>
+              </a>
+              <a
+                className="flex font-semibold items-center justify-between gap-2 "
+                href="https://reactfl1x.vercel.app/"
+                target="_blank"
+              >
+                Live Demo{" "}
+                <i className="fa-solid fa-share-from-square text-2xl"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* 4th Project */}
         <div className="bg-white rounded-xl shadow-md xl:flex  items-start p-10   gap-5 mt-10">
           <div className="">
             <a
@@ -311,7 +400,7 @@ export const Projects = () => {
 
         
         {/* 6th Project */}
-        <div className="bg-white rounded-xl shadow-md xl:flex items-start p-10   gap-5 mt-10">
+        <div className="bg-white rounded-xl shadow-md xl:flex xl:flex-row-reverse items-start p-10   gap-5 mt-10">
           <div className="">
             <a
               className=""
@@ -335,8 +424,17 @@ export const Projects = () => {
           </div>
           <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5   ">
             <h1 className="text-center font-bold text-[20px] ">
-             UI/UX of our School SMS
+             Web Design
             </h1>
+            <motion.p
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+              viewport={{ once: true }}
+              className="text-center text-gray-500"
+            >
+              Using Figma
+            </motion.p>
             <motion.p
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -357,6 +455,54 @@ export const Projects = () => {
             </div>
           </div>
         </div>
+        
+        <div className="bg-white rounded-xl shadow-md xl:flex items-start p-10   gap-5 mt-10">
+          <div className="">
+            <a
+              className=""
+              href="https://jamesjebery.wordpress.com/wp-admin/site-editor.php?postType=page&postId=2&canvas=edit"
+              target="_blank"
+            >
+              <motion.div
+                initial={{ opacity: 0, x: -50 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+                viewport={{ once: true }}
+                className="w-full"
+              >
+                <img
+                  className="w-full h-full object-cover rounded-xl shadow-mmd border-t border-l border-slate-600"
+                  src="/images/wd.png"
+                  alt=""
+                />
+              </motion.div>
+            </a>
+          </div>
+          <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5   ">
+            <h1 className="text-center font-bold text-[20px] ">
+              Basic WordPress
+            </h1>
+           
+            <div className="flex gap-5 justify-center">
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600 ">
+                WordPress
+              </span>
+             
+            </div>
+            <div className="flex gap-5 items-center justify-center">
+            
+              <a
+                className="flex font-semibold items-center justify-between gap-2 "
+                href="https://jamesjebery.wordpress.com/wp-admin/site-editor.php?postType=page&postId=2&canvas=edit"
+                target="_blank"
+              >
+                Live Demo{" "}
+                <i className="fa-solid fa-share-from-square text-2xl"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
 
       </div>
     </section>
