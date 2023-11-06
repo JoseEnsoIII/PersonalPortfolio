@@ -306,7 +306,7 @@ export const Projects = () => {
               >
                 <img
                   className="w-full h-full object-cover rounded-xl shadow-mmd border-l "
-                  src="/images/project5.jpg"
+                  src="/images/pph.png"
                   alt=""
                 />
               </motion.div>
