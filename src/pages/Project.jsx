@@ -155,7 +155,7 @@ export const Projects = () => {
           </div>
         </div>
 
-        <div className="bg-white rounded-xl shadow-md xl:flex xl:flex-row-reverse  items-start p-10   gap-5 mt-10">
+        <div className="bg-white rounded-xl shadow-md xl:flex items-start p-10  gap-5 mt-10">
           <div className="">
             <a className="" href="https://reactfl1x.vercel.app/" target="_blank">
               <motion.div
@@ -227,7 +227,7 @@ export const Projects = () => {
         </div>
 
         {/* 4th Project */}
-        <div className="bg-white rounded-xl shadow-md xl:flex  items-start p-10   gap-5 mt-10">
+        <div className="bg-white rounded-xl shadow-md xl:flex xl:flex-row-reverse  items-start p-10   gap-5 mt-10">
           <div className="">
             <a
               className=""
@@ -294,7 +294,7 @@ export const Projects = () => {
         </div>
 
         {/* 4th Project */}
-        <div className="bg-white rounded-xl shadow-md xl:flex xl:flex-row-reverse items-start p-10   gap-5 mt-10">
+        <div className="bg-white rounded-xl shadow-md xl:flex items-start p-10  gap-5 mt-10">
           <div className="">
             <a className="" href="#" target="_blank">
               <motion.div
@@ -348,7 +348,7 @@ export const Projects = () => {
         </div>
 
         {/* 5th Project */}
-        <div className="bg-white rounded-xl shadow-md xl:flex items-start p-10   gap-5 mt-10">
+        <div className="bg-white rounded-xl shadow-md xl:flex xl:flex-row-reverse  items-start p-10   gap-5 mt-10">
           <div className="">
             <a
               className=""
@@ -414,7 +414,7 @@ export const Projects = () => {
 
         
         {/* 6th Project */}
-        <div className="bg-white rounded-xl shadow-md xl:flex xl:flex-row-reverse items-start p-10   gap-5 mt-10">
+        <div className="bg-white rounded-xl shadow-md xl:flex items-start p-10  gap-5 mt-10">
           <div className="">
             <a
               className=""
@@ -470,7 +470,7 @@ export const Projects = () => {
           </div>
         </div>
         
-        <div className="bg-white rounded-xl shadow-md xl:flex items-start p-10   gap-5 mt-10">
+        <div className="bg-white rounded-xl shadow-md xl:flex xl:flex-row-reverse  items-start p-10   gap-5 mt-10">
           <div className="">
             <a
               className=""
@@ -486,7 +486,7 @@ export const Projects = () => {
               >
                 <img
                   className="w-full h-full object-cover rounded-xl shadow-mmd border-t border-l border-slate-600"
-                  src="/images/wd.png"
+                  src="/images/wd1.png"
                   alt=""
                 />
               </motion.div>
@@ -494,9 +494,17 @@ export const Projects = () => {
           </div>
           <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5   ">
             <h1 className="text-center font-bold text-[20px] ">
-              Basic WordPress
+              WordPress
             </h1>
-           
+            <motion.p
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+              viewport={{ once: true }}
+              className="text-center text-gray-500"
+            >
+              Not Deployed Not Hosted 
+            </motion.p>
             <div className="flex gap-5 justify-center">
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600 ">
                 WordPress

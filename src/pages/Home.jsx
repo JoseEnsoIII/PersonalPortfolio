@@ -44,7 +44,7 @@ export const Home = () => {
            React.Js Developer <span className="absolute animate-wiggle">👋🏻</span>
           </motion.h1>
           <motion.p variants={textVariant} initial="offScreen" whileInView={`onScreen`} className="sm:text-center xl:text-start text-gray-800 tracking-wide text-[16px] sm:mt-0 md:mt-10 leading-6">
-            Hi, I'm Jose C. Enso III,  Front-End Developer | MERN STACK DEVELOPER | Flutter Dev Soon |
+            Hi, I'm Jose C. Enso III,  MERN STACK DEVELOPER | WordPress Developer 
             based in Valenzuela,Philippines. 📍
           </motion.p>
           <div className="mt-6 flex items-center sm:justify-center xl:justify-start ">
