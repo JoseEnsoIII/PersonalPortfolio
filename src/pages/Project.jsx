@@ -193,6 +193,15 @@ export const Projects = () => {
             >
               ReactFlix is a free ad-free movie streaming app offering over 10,000 movies and TV series, with the option to download content from MoviesCloud for offline viewing, all without the need to register or pay.
             </motion.p>
+            <motion.p
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+              viewport={{ once: true }}
+              className="text-center text-gray-500"
+            >
+              I'm not done. I'm doing my job right now. I'm still searching for good ideas for this website.
+            </motion.p>
             <div className="flex gap-5 justify-center">
             <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 Mysql
