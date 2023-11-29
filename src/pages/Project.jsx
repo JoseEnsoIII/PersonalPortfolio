@@ -46,7 +46,7 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-             My Internship Project 
+              My Internship Project
             </motion.p>
             <motion.p
               initial={{ opacity: 0, x: 50 }}
@@ -70,13 +70,12 @@ export const Projects = () => {
               </span>
             </div>
             <div className="flex gap-5 items-center justify-center">
-               <a
+              <a
                 className="flex font-semibold items-center justify-between gap-2 "
                 href="https://github.com/JoseEnsoIII/ITSolutions.inc"
                 target="_blank"
               >
-                Code{" "}
-                <i className="fa-brands fa-github text-2xl"></i>
+                Code <i className="fa-brands fa-github text-2xl"></i>
               </a>
               <a
                 className="flex font-semibold items-center justify-between gap-2 "
@@ -93,9 +92,13 @@ export const Projects = () => {
         {/* 2nd Project */}
         <div className="bg-white rounded-xl shadow-md xl:flex xl:flex-row-reverse  items-start p-10   gap-5 mt-10">
           <div className="">
-            <a className="" href="https://travel-website-ph.vercel.app/" target="_blank">
+            <a
+              className=""
+              href="https://staging.iconitrax.com/crestico/home/"
+              target="_blank"
+            >
               <motion.div
-                initial={{ opacity: 0, x: 50 }}
+                initial={{ opacity: 0, x: -50 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
                 viewport={{ once: true }}
@@ -103,14 +106,14 @@ export const Projects = () => {
               >
                 <img
                   className="w-full h-full object-cover rounded-xl shadow-mmd border-t border-l border-slate-600"
-                  src="/images/ta.png"
+                  src="/images/wd1.png"
                   alt=""
                 />
               </motion.div>
             </a>
           </div>
           <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5   ">
-            <h1 className="text-center font-bold text-[20px] ">Travel Agency</h1>
+            <h1 className="text-center font-bold text-[20px] ">Real Estate Website</h1>
             <motion.p
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -118,34 +121,33 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-             My Internship Project 
+              Work Project
             </motion.p>
             <motion.p
-              initial={{ opacity: 0, x: -50 }}
+              initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-              Elevating your Philippine travel experience with seamless online
-              solutions, bringing you closer to captivating destinations and
-              unforgettable journeys.
+
+              CRESTICO, INC. offers autonomy and cutting-edge tools for independent professionals, fostering a supportive community for collaborative success in deal closures.
             </motion.p>
             <div className="flex gap-5 justify-center">
-              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                React
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600 ">
+                WordPress
               </span>
-              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                Vite
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600 ">
+                CMS
               </span>
-              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                Tailwind
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600 ">
+                Elementor/Divi
               </span>
             </div>
             <div className="flex gap-5 items-center justify-center">
               <a
                 className="flex font-semibold items-center justify-between gap-2 "
-                href="https://travel-website-ph.vercel.app/"
+                href="https://staging.iconitrax.com/crestico/home/"
                 target="_blank"
               >
                 Live Demo{" "}
@@ -157,7 +159,11 @@ export const Projects = () => {
 
         <div className="bg-white rounded-xl shadow-md xl:flex items-start p-10  gap-5 mt-10">
           <div className="">
-            <a className="" href="https://reactfl1x.vercel.app/" target="_blank">
+            <a
+              className=""
+              href="https://reactfl1x.vercel.app/"
+              target="_blank"
+            >
               <motion.div
                 initial={{ opacity: 0, x: 50 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -182,7 +188,7 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-             My Self Project 
+              My Self Project
             </motion.p>
             <motion.p
               initial={{ opacity: 0, x: -50 }}
@@ -191,7 +197,10 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-              ReactFlix is a free ad-free movie streaming app offering over 10,000 movies and TV series, with the option to download content from MoviesCloud for offline viewing, all without the need to register or pay.
+              ReactFlix is a free ad-free movie streaming app offering over
+              10,000 movies and TV series, with the option to download content
+              from MoviesCloud for offline viewing, all without the need to
+              register or pay.
             </motion.p>
             <motion.p
               initial={{ opacity: 0, x: -50 }}
@@ -200,23 +209,25 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-              I'm not done. I'm doing my job right now. I'm still searching for good ideas for this website.
+              I'm not done. I'm doing my job right now. I'm still searching for
+              good ideas for this website.
             </motion.p>
             <div className="flex gap-5 justify-center">
-            <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 Mysql
               </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 Express
-              </span> <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+              </span>{" "}
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 React
               </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-               Node.js
+                Node.js
               </span>
             </div>
             <div className="flex gap-5 items-center justify-center">
-            <a
+              <a
                 className="flex font-semibold items-center justify-between gap-2"
                 href="https://github.com/JoseEnsoIII/REACT"
                 target="_blank"
@@ -272,7 +283,7 @@ export const Projects = () => {
               photo sharing.
             </motion.p>
             <div className="flex gap-5 justify-center">
-               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 HTML
               </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
@@ -343,13 +354,13 @@ export const Projects = () => {
                 PHP
               </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-               SQL
+                SQL
               </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                AJAX 
+                AJAX
               </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-              JQUERY
+                JQUERY
               </span>
             </div>
             <div className="flex gap-5 items-center justify-center"></div>
@@ -421,7 +432,6 @@ export const Projects = () => {
           </div>
         </div>
 
-        
         {/* 6th Project */}
         <div className="bg-white rounded-xl shadow-md xl:flex items-start p-10  gap-5 mt-10">
           <div className="">
@@ -446,9 +456,7 @@ export const Projects = () => {
             </a>
           </div>
           <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5   ">
-            <h1 className="text-center font-bold text-[20px] ">
-             Web Design
-            </h1>
+            <h1 className="text-center font-bold text-[20px] ">Web Design</h1>
             <motion.p
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -465,29 +473,27 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-              I created my own version of an SMS eLearning website's UI/UX design using Figma.
+              I created my own version of an SMS eLearning website's UI/UX
+              design using Figma.
             </motion.p>
             <div className="flex gap-5 justify-center">
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600 ">
                 FIGMA
               </span>
-              
             </div>
-            <div className="flex gap-5 items-center justify-center">
-             
-            </div>
+            <div className="flex gap-5 items-center justify-center"></div>
           </div>
         </div>
-        
+
         <div className="bg-white rounded-xl shadow-md xl:flex xl:flex-row-reverse  items-start p-10   gap-5 mt-10">
           <div className="">
             <a
               className=""
-              href="https://jamesjebery.wordpress.com/wp-admin/site-editor.php?postType=page&postId=2&canvas=edit"
+              href="https://travel-website-ph.vercel.app/"
               target="_blank"
             >
               <motion.div
-                initial={{ opacity: 0, x: -50 }}
+                initial={{ opacity: 0, x: 50 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
                 viewport={{ once: true }}
@@ -495,7 +501,7 @@ export const Projects = () => {
               >
                 <img
                   className="w-full h-full object-cover rounded-xl shadow-mmd border-t border-l border-slate-600"
-                  src="/images/wd1.png"
+                  src="/images/ta.png"
                   alt=""
                 />
               </motion.div>
@@ -503,7 +509,7 @@ export const Projects = () => {
           </div>
           <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5   ">
             <h1 className="text-center font-bold text-[20px] ">
-              WordPress
+              Travel Agency
             </h1>
             <motion.p
               initial={{ opacity: 0, x: 50 }}
@@ -512,19 +518,34 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-              Not Deployed Not Hosted 
+              My Internship Project
+            </motion.p>
+            <motion.p
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+              viewport={{ once: true }}
+              className="text-center text-gray-500"
+            >
+              Elevating your Philippine travel experience with seamless online
+              solutions, bringing you closer to captivating destinations and
+              unforgettable journeys.
             </motion.p>
             <div className="flex gap-5 justify-center">
-              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600 ">
-                WordPress
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+                React
               </span>
-             
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+                Vite
+              </span>
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+                Tailwind
+              </span>
             </div>
             <div className="flex gap-5 items-center justify-center">
-            
               <a
                 className="flex font-semibold items-center justify-between gap-2 "
-                href="https://jamesjebery.wordpress.com/wp-admin/site-editor.php?postType=page&postId=2&canvas=edit"
+                href="https://travel-website-ph.vercel.app/"
                 target="_blank"
               >
                 Live Demo{" "}
@@ -532,9 +553,7 @@ export const Projects = () => {
               </a>
             </div>
           </div>
-        </div>
-
-
+        </div> 
       </div>
     </section>
   );
