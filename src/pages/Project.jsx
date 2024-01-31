@@ -437,7 +437,7 @@ export const Projects = () => {
           <div className="">
             <a
               className=""
-              href="https://joseensoiii.github.io/JJAM-EVENT-MANAGEMENT/"
+              href="https://www.figma.com/file/UcHOWo37hRVMW7zjsXvtGj/Untitled?type=design&mode=design&t=NeWG2puztmo7jwqG-0"
               target="_blank"
             >
               <motion.div
