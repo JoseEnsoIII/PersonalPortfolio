@@ -251,7 +251,7 @@ export const Projects = () => {
           <div className="">
             <a
               className=""
-              href="https://joseensoiii.github.io/IG-Clone/"
+              href="#"
               target="_blank"
             >
               <motion.div
@@ -263,14 +263,14 @@ export const Projects = () => {
               >
                 <img
                   className="w-full h-full object-cover rounded-xl border-t border-l border-slate-600 "
-                  src="/images/project4.PNG"
+                  src="/images/sp.png"
                   alt=""
                 />
               </motion.div>
             </a>
           </div>
           <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5   ">
-            <h1 className="text-center font-bold text-[20px] ">IG Clone</h1>
+            <h1 className="text-center font-bold text-[20px] ">SaturnPay Exchange</h1>
             <motion.p
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -278,37 +278,18 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-              Showcasing my web development skills through an Instagram-inspired
-              clone that captures the essence of social media interaction and
-              photo sharing.
+              Crafting a crypto-centric platform mirroring Instagram's social dynamics, users can share their trading strategies, favorite coins, and engage in discussions, fostering a vibrant community immersed in the world of cryptocurrencies. With features like timelines, stories, and direct messaging, the site embodies the essence of social media interaction within the crypto space, providing a unique showcase of web development prowess.
             </motion.p>
             <div className="flex gap-5 justify-center">
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                HTML
+               Vue
               </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                CSS
+                Vuetify3
               </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                JAVASCRIPT
+                Vite.Js
               </span>
-            </div>
-            <div className="flex gap-5 items-center justify-center">
-              <a
-                className="flex font-semibold items-center justify-between gap-2"
-                href="https://github.com/JoseEnsoIII/IG-Clone"
-                target="_blank"
-              >
-                Code <i className="fa-brands fa-github text-2xl"></i>
-              </a>
-              <a
-                className="flex font-semibold items-center justify-between gap-2 "
-                href="https://joseensoiii.github.io/IG-Clone/"
-                target="_blank"
-              >
-                Live Demo{" "}
-                <i className="fa-solid fa-share-from-square text-2xl"></i>
-              </a>
             </div>
           </div>
         </div>
@@ -372,7 +353,7 @@ export const Projects = () => {
           <div className="">
             <a
               className=""
-              href="https://joseensoiii.github.io/JJAM-EVENT-MANAGEMENT/"
+              href="#"
               target="_blank"
             >
               <motion.div
@@ -384,7 +365,7 @@ export const Projects = () => {
               >
                 <img
                   className="w-full h-full object-cover rounded-xl shadow-mmd border-t border-l border-slate-600"
-                  src="/images/project1.png"
+                  src="/images/bs.png"
                   alt=""
                 />
               </motion.div>
@@ -401,33 +382,18 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-              Landing page for Event Management.Our Project in our subject
-              Software Design Second Year. Built with HTML CSS and JS
+              Step into the realm of crypto fortune with our meticulously crafted signal website. Seamlessly blending innovative design with advanced algorithms, we provide real-time insights and expert analysis, empowering you to make informed decisions in the ever-evolving landscape of cryptocurrency.
             </motion.p>
             <div className="flex gap-5 justify-center">
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600 ">
-                HTML CSS
+                Vuetify3
               </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                JAVASCRIPT
+                Vite.js
               </span>
-            </div>
-            <div className="flex gap-5 items-center justify-center">
-              <a
-                className="flex font-semibold items-center justify-between gap-2"
-                href="https://github.com/JoseEnsoIII/JJAM-EVENT-MANAGEMENT"
-                target="_blank"
-              >
-                Code <i className="fa-brands fa-github text-2xl"></i>
-              </a>
-              <a
-                className="flex font-semibold items-center justify-between gap-2 "
-                href="https://joseensoiii.github.io/JJAM-EVENT-MANAGEMENT/"
-                target="_blank"
-              >
-                Live Demo{" "}
-                <i className="fa-solid fa-share-from-square text-2xl"></i>
-              </a>
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+                Typescript
+              </span>
             </div>
           </div>
         </div>
