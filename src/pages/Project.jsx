@@ -106,14 +106,14 @@ export const Projects = () => {
               >
                 <img
                   className="w-full h-full object-cover rounded-xl shadow-mmd border-t border-l border-slate-600"
-                  src="/images/wd1.png"
+                  src="/images/ss.png"
                   alt=""
                 />
               </motion.div>
             </a>
           </div>
           <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5   ">
-            <h1 className="text-center font-bold text-[20px] ">Real Estate Website</h1>
+            <h1 className="text-center font-bold text-[20px] ">Iconitrax</h1>
             <motion.p
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -278,8 +278,16 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-              Crafting a crypto-centric platform mirroring Instagram's social dynamics, users can share their trading strategies, favorite coins, and engage in discussions, fostering a vibrant community immersed in the world of cryptocurrencies. With features like timelines, stories, and direct messaging, the site embodies the essence of social media interaction within the crypto space, providing a unique showcase of web development prowess.
+              Work Project
             </motion.p>
+            <motion.p
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+              viewport={{ once: true }}
+              className="text-center text-gray-500"
+            >
+            Developing a crypto-centric social platform akin to Instagram, where users share trading insights, favorite coins, and connect through timelines, stories, and messaging, fostering a vibrant community within the crypto space. </motion.p>
             <div className="flex gap-5 justify-center">
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                Vue
@@ -373,8 +381,17 @@ export const Projects = () => {
           </div>
           <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5   ">
             <h1 className="text-center font-bold text-[20px] ">
-              JJAM Event Management
+              Bulls Signal
             </h1>
+            <motion.p
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+              viewport={{ once: true }}
+              className="text-center text-gray-500"
+            >
+              Work Project
+            </motion.p>
             <motion.p
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
