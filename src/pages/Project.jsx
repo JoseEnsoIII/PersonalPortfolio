@@ -94,7 +94,7 @@ export const Projects = () => {
           <div className="">
             <a
               className=""
-              href="https://staging.iconitrax.com/crestico/home/"
+              href="http://iconitrax.com/"
               target="_blank"
             >
               <motion.div
@@ -106,7 +106,7 @@ export const Projects = () => {
               >
                 <img
                   className="w-full h-full object-cover rounded-xl shadow-mmd border-t border-l border-slate-600"
-                  src="/images/ss.png"
+                  src="/images/iconitrax.png"
                   alt=""
                 />
               </motion.div>
@@ -147,7 +147,7 @@ export const Projects = () => {
             <div className="flex gap-5 items-center justify-center">
               <a
                 className="flex font-semibold items-center justify-between gap-2 "
-                href="https://staging.iconitrax.com/crestico/home/"
+                href="https://www.iconitrax.com/"
                 target="_blank"
               >
                 Live Demo{" "}
