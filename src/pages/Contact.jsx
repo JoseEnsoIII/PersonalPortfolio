@@ -1,4 +1,3 @@
-import React from "react";
 
 export const Contact = () => {
   return (
@@ -44,19 +43,20 @@ export const Contact = () => {
               </div>
             </div>
 
-            <div className="p-5 rounded-full shadow-mmd border-t border-l border-slate-900 flex items-center gap-1 sm:mt-5 md:mt-0 ">
-              <div className="w-[40px]">
-                <img
-                  className="w-full h-full object-cover"
-                  src="/images/resume.jpg"
-                  alt=""
-                />
-              </div>
-              <div>
-                <p className="font-bold">Resume</p>
-               <a href="https://drive.google.com/drive/folders/11-LxAS0yygZILPsmG0Q4ew3vJwnJTlYo?usp=drive_link" className=" text-blue-600 whitespace-normal">Click Here</a> 
-              </div>
-            </div>
+            <div className="p-5 rounded-full shadow-mmd border-t border-l border-slate-900 flex items-center gap-1 sm:mt-5 md:mt-0">
+  <div className="w-[60px]">
+    <img
+      className="w-full h-full object-cover"
+      src="https://img.icons8.com/?size=100&id=115648&format=png&color=000000"
+      alt="Resume Icon"
+    />
+  </div>
+  <div>
+    <p className="font-bold">Resume</p>
+    <a href="https://drive.google.com/file/d/1p4wJOOTbWwRij6sfKx9mIAdsMXr3rmIQ/view?usp=drive_link" className="text-blue-600 whitespace-normal">Click Here</a>
+  </div>
+</div>
+
           </div>
         </div>
       </div>

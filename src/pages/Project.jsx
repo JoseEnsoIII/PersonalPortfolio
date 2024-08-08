@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 
 export const Projects = () => {
@@ -13,89 +12,93 @@ export const Projects = () => {
           Each Project has a unique piece of development 🧩
         </h2>
         {/* First Project */}
-        <div className="bg-white rounded-xl shadow-md xl:flex items-start p-10  gap-5 mt-10">
-          <div className="">
-            <a
-              className=""
-              href="https://www.metacoresystemsinc.com"
-              target="_blank"
-            >
-              <motion.div
-                initial={{ opacity: 0, x: -50 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
-                viewport={{ once: true }}
-                className="w-full"
-              >
-                <img
-                  className="w-full h-full object-cover rounded-xl shadow-mmd border-t border-l border-slate-600"
-                  src="/images/project2.PNG"
-                  alt=""
-                />
-              </motion.div>
-            </a>
-          </div>
-          <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5">
-            <h1 className="text-center font-bold text-[20px] ">
-              IT Solutions Company
-            </h1>
-            <motion.p
-              initial={{ opacity: 0, x: 50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
-              viewport={{ once: true }}
-              className="text-center text-gray-500"
-            >
-              My Internship Project
-            </motion.p>
-            <motion.p
-              initial={{ opacity: 0, x: 50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
-              viewport={{ once: true }}
-              className="text-center text-gray-500"
-            >
-              Empowering businesses through innovative IT solutions to drive
-              efficiency, growth, and digital transformation.
-            </motion.p>
-            <div className="flex gap-5 justify-center">
-              <span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
-                React
-              </span>
-              <span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
-                Vite.Js
-              </span>
-              <span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
-                Tailwind
-              </span>
-            </div>
-            <div className="flex gap-5 items-center justify-center">
-              <a
-                className="flex font-semibold items-center justify-between gap-2 "
-                href="https://github.com/JoseEnsoIII/ITSolutions.inc"
-                target="_blank"
-              >
-                Code <i className="fa-brands fa-github text-2xl"></i>
-              </a>
-              <a
-                className="flex font-semibold items-center justify-between gap-2 "
-                href="https://itsolutions-inc.vercel.app/"
-                target="_blank"
-              >
-                Live Demo{" "}
-                <i className="fa-solid fa-share-from-square text-2xl"></i>
-              </a>
-            </div>
-          </div>
-        </div>
+        <div className="bg-white rounded-xl shadow-md xl:flex items-start p-10 gap-5 mt-10">
+  <div className="">
+    <a
+      className=""
+      href="https://www.metacoresystemsinc.com"
+      target="_blank"
+      rel="noreferrer noopener"
+    >
+      <motion.div
+        initial={{ opacity: 0, x: -50 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+        viewport={{ once: true }}
+        className="w-full"
+      >
+        <img
+          className="w-full h-full object-cover rounded-xl shadow-mmd border-t border-l border-slate-600"
+          src="/images/project2.PNG"
+          alt=""
+        />
+      </motion.div>
+    </a>
+  </div>
+  <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5">
+    <h1 className="text-center font-bold text-[20px]">
+      IT Solutions Company
+    </h1>
+    <motion.p
+      initial={{ opacity: 0, x: 50 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+      viewport={{ once: true }}
+      className="text-center text-gray-500"
+    >
+      My Internship Project
+    </motion.p>
+    <motion.p
+      initial={{ opacity: 0, x: 50 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+      viewport={{ once: true }}
+      className="text-center text-gray-500"
+    >
+      Empowering businesses through innovative IT solutions to drive efficiency, growth, and digital transformation.
+    </motion.p>
+    <div className="flex gap-5 justify-center">
+      <span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
+        React
+      </span>
+      <span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
+        Vite.Js
+      </span>
+      <span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
+        Tailwind
+      </span>
+    </div>
+    <div className="flex gap-5 items-center justify-center">
+      <a
+        className="flex font-semibold items-center justify-between gap-2"
+        href="https://github.com/JoseEnsoIII/ITSolutions.inc"
+        target="_blank"
+        rel="noreferrer noopener"
+      >
+        Code <i className="fa-brands fa-github text-2xl"></i>
+      </a>
+      <a
+        className="flex font-semibold items-center justify-between gap-2"
+        href="https://itsolutions-inc.vercel.app/"
+        target="_blank"
+        rel="noreferrer noopener"
+      >
+        Live Demo{" "}
+        <i className="fa-solid fa-share-from-square text-2xl"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
 
         {/* 2nd Project */}
-        <div className="bg-white rounded-xl shadow-md xl:flex xl:flex-row-reverse  items-start p-10   gap-5 mt-10">
+        <div className="bg-white rounded-xl shadow-md xl:flex xl:flex-row-reverse items-start p-10 gap-5 mt-10">
           <div className="">
             <a
               className=""
               href="http://iconitrax.com/"
               target="_blank"
+              rel="noreferrer noopener"
             >
               <motion.div
                 initial={{ opacity: 0, x: -50 }}
@@ -112,8 +115,8 @@ export const Projects = () => {
               </motion.div>
             </a>
           </div>
-          <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5   ">
-            <h1 className="text-center font-bold text-[20px] ">Iconitrax</h1>
+          <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5">
+            <h1 className="text-center font-bold text-[20px]">Iconitrax</h1>
             <motion.p
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -130,25 +133,27 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-
-              CRESTICO, INC. offers autonomy and cutting-edge tools for independent professionals, fostering a supportive community for collaborative success in deal closures.
+              CRESTICO, INC. offers autonomy and cutting-edge tools for
+              independent professionals, fostering a supportive community for
+              collaborative success in deal closures.
             </motion.p>
             <div className="flex gap-5 justify-center">
-              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600 ">
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 WordPress
               </span>
-              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600 ">
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 CMS
               </span>
-              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600 ">
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 Elementor/Divi
               </span>
             </div>
             <div className="flex gap-5 items-center justify-center">
               <a
-                className="flex font-semibold items-center justify-between gap-2 "
+                className="flex font-semibold items-center justify-between gap-2"
                 href="https://www.iconitrax.com/"
                 target="_blank"
+                rel="noreferrer noopener"
               >
                 Live Demo{" "}
                 <i className="fa-solid fa-share-from-square text-2xl"></i>
@@ -157,12 +162,14 @@ export const Projects = () => {
           </div>
         </div>
 
-        <div className="bg-white rounded-xl shadow-md xl:flex items-start p-10  gap-5 mt-10">
+        {/* 3rd Project */}
+        <div className="bg-white rounded-xl shadow-md xl:flex items-start p-10 gap-5 mt-10">
           <div className="">
             <a
               className=""
               href="https://reactfl1x.vercel.app/"
               target="_blank"
+              rel="noreferrer noopener"
             >
               <motion.div
                 initial={{ opacity: 0, x: 50 }}
@@ -179,8 +186,8 @@ export const Projects = () => {
               </motion.div>
             </a>
           </div>
-          <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5   ">
-            <h1 className="text-center font-bold text-[20px] ">ReactFlix</h1>
+          <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5">
+            <h1 className="text-center font-bold text-[20px]">ReactFlix</h1>
             <motion.p
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -209,7 +216,7 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-              I'm not done. I'm doing my job right now. I'm still searching for
+              Im not done. Im doing my job right now. Im still searching for
               good ideas for this website.
             </motion.p>
             <div className="flex gap-5 justify-center">
@@ -218,7 +225,7 @@ export const Projects = () => {
               </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 Express
-              </span>{" "}
+              </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 React
               </span>
@@ -231,13 +238,15 @@ export const Projects = () => {
                 className="flex font-semibold items-center justify-between gap-2"
                 href="https://github.com/JoseEnsoIII/REACT"
                 target="_blank"
+                rel="noreferrer noopener"
               >
                 Code <i className="fa-brands fa-github text-2xl"></i>
               </a>
               <a
-                className="flex font-semibold items-center justify-between gap-2 "
+                className="flex font-semibold items-center justify-between gap-2"
                 href="https://reactfl1x.vercel.app/"
                 target="_blank"
+                rel="noreferrer noopener"
               >
                 Live Demo{" "}
                 <i className="fa-solid fa-share-from-square text-2xl"></i>
@@ -249,11 +258,7 @@ export const Projects = () => {
         {/* 4th Project */}
         <div className="bg-white rounded-xl shadow-md xl:flex xl:flex-row-reverse  items-start p-10   gap-5 mt-10">
           <div className="">
-            <a
-              className=""
-              href="#"
-              target="_blank"
-            >
+            <a className="" href="#" target="_blank">
               <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -270,7 +275,9 @@ export const Projects = () => {
             </a>
           </div>
           <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5   ">
-            <h1 className="text-center font-bold text-[20px] ">SaturnPay Exchange</h1>
+            <h1 className="text-center font-bold text-[20px] ">
+              SaturnPay Exchange
+            </h1>
             <motion.p
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -287,10 +294,14 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-            Developing a crypto-centric social platform akin to Instagram, where users share trading insights, favorite coins, and connect through timelines, stories, and messaging, fostering a vibrant community within the crypto space. </motion.p>
+              Developing a crypto-centric social platform akin to Instagram,
+              where users share trading insights, favorite coins, and connect
+              through timelines, stories, and messaging, fostering a vibrant
+              community within the crypto space.{" "}
+            </motion.p>
             <div className="flex gap-5 justify-center">
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-               Vue
+                Vue
               </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 Vuetify3
@@ -302,7 +313,7 @@ export const Projects = () => {
           </div>
         </div>
 
-        {/* 4th Project */}
+        {/* 5th Project */}
         <div className="bg-white rounded-xl shadow-md xl:flex items-start p-10  gap-5 mt-10">
           <div className="">
             <a className="" href="#" target="_blank">
@@ -356,14 +367,10 @@ export const Projects = () => {
           </div>
         </div>
 
-        {/* 5th Project */}
+        {/* 6th Project */}
         <div className="bg-white rounded-xl shadow-md xl:flex xl:flex-row-reverse  items-start p-10   gap-5 mt-10">
           <div className="">
-            <a
-              className=""
-              href="#"
-              target="_blank"
-            >
+            <a className="" href="#" target="_blank">
               <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -380,9 +387,7 @@ export const Projects = () => {
             </a>
           </div>
           <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5   ">
-            <h1 className="text-center font-bold text-[20px] ">
-              Bulls Signal
-            </h1>
+            <h1 className="text-center font-bold text-[20px] ">Bulls Signal</h1>
             <motion.p
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -399,7 +404,11 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-              Step into the realm of crypto fortune with our meticulously crafted signal website. Seamlessly blending innovative design with advanced algorithms, we provide real-time insights and expert analysis, empowering you to make informed decisions in the ever-evolving landscape of cryptocurrency.
+              Step into the realm of crypto fortune with our meticulously
+              crafted signal website. Seamlessly blending innovative design with
+              advanced algorithms, we provide real-time insights and expert
+              analysis, empowering you to make informed decisions in the
+              ever-evolving landscape of cryptocurrency.
             </motion.p>
             <div className="flex gap-5 justify-center">
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600 ">
@@ -415,13 +424,14 @@ export const Projects = () => {
           </div>
         </div>
 
-        {/* 6th Project */}
-        <div className="bg-white rounded-xl shadow-md xl:flex items-start p-10  gap-5 mt-10">
+        {/* 7th Project */}
+        <div className="bg-white rounded-xl shadow-md xl:flex items-start p-10 gap-5 mt-10">
           <div className="">
             <a
               className=""
               href="https://www.figma.com/file/UcHOWo37hRVMW7zjsXvtGj/Untitled?type=design&mode=design&t=NeWG2puztmo7jwqG-0"
               target="_blank"
+              rel="noreferrer noopener"
             >
               <motion.div
                 initial={{ opacity: 0, x: -50 }}
@@ -438,9 +448,10 @@ export const Projects = () => {
               </motion.div>
             </a>
           </div>
-          <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5   ">
-            <h1 className="text-center font-bold text-[20px] ">UI/UX Web Design</h1>
-           
+          <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5">
+            <h1 className="text-center font-bold text-[20px]">
+              UI/UX Web Design
+            </h1>
             <motion.p
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -451,15 +462,16 @@ export const Projects = () => {
               Web Design of my Work Project In Wordpress
             </motion.p>
             <div className="flex gap-5 justify-center">
-              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600 ">
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 FIGMA
               </span>
             </div>
             <div className="flex gap-5 items-center justify-center">
               <a
-                className="flex font-semibold items-center justify-between gap-2 "
+                className="flex font-semibold items-center justify-between gap-2"
                 href="https://www.figma.com/file/UcHOWo37hRVMW7zjsXvtGj/Untitled?type=design&mode=design&t=NeWG2puztmo7jwqG-0"
                 target="_blank"
+                rel="noreferrer noopener"
               >
                 Live Demo{" "}
                 <i className="fa-solid fa-share-from-square text-2xl"></i>
@@ -469,12 +481,14 @@ export const Projects = () => {
           </div>
         </div>
 
-        <div className="bg-white rounded-xl shadow-md xl:flex xl:flex-row-reverse  items-start p-10   gap-5 mt-10">
+        {/* 8th Project */}
+        <div className="bg-white rounded-xl shadow-md xl:flex xl:flex-row-reverse items-start p-10 gap-5 mt-10">
           <div className="">
             <a
               className=""
               href="https://travel-website-ph.vercel.app/"
               target="_blank"
+              rel="noreferrer noopener"
             >
               <motion.div
                 initial={{ opacity: 0, x: 50 }}
@@ -491,10 +505,8 @@ export const Projects = () => {
               </motion.div>
             </a>
           </div>
-          <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5   ">
-            <h1 className="text-center font-bold text-[20px] ">
-              Travel Agency
-            </h1>
+          <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5">
+            <h1 className="text-center font-bold text-[20px]">Travel Agency</h1>
             <motion.p
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -528,16 +540,17 @@ export const Projects = () => {
             </div>
             <div className="flex gap-5 items-center justify-center">
               <a
-                className="flex font-semibold items-center justify-between gap-2 "
+                className="flex font-semibold items-center justify-between gap-2"
                 href="https://travel-website-ph.vercel.app/"
                 target="_blank"
+                rel="noreferrer noopener"
               >
                 Live Demo{" "}
                 <i className="fa-solid fa-share-from-square text-2xl"></i>
               </a>
             </div>
           </div>
-        </div> 
+        </div>
       </div>
     </section>
   );
