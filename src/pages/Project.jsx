@@ -229,6 +229,9 @@ export const Projects = () => {
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 React
               </span>
+              
+            </div>
+            <div className="flex gap-5 justify-center">
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 Node.js
               </span>
@@ -310,6 +313,16 @@ export const Projects = () => {
                 Vite.Js
               </span>
             </div>
+            <div className="flex gap-5 items-center justify-center">
+              <a
+                className="flex font-semibold items-center justify-between gap-2"
+                href="https://github.com/JoseEnsoIII/SaturnPay"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Code <i className="fa-brands fa-github text-2xl"></i>
+              </a>
+            </div>
           </div>
         </div>
 
@@ -335,6 +348,15 @@ export const Projects = () => {
           <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5   ">
             <h1 className="text-center font-bold text-[20px] ">CI3-ERP</h1>
             <motion.p
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+              viewport={{ once: true }}
+              className="text-center text-gray-500"
+            >
+              Internship Project
+            </motion.p>
+            <motion.p
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
@@ -356,6 +378,9 @@ export const Projects = () => {
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 SQL
               </span>
+              
+            </div>
+            <div className="flex gap-5 justify-center">
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 AJAX
               </span>
