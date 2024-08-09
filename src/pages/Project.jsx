@@ -421,6 +421,17 @@ export const Projects = () => {
                 Typescript
               </span>
             </div>
+            <div className="flex gap-5 items-center justify-center">
+      <a
+        className="flex font-semibold items-center justify-between gap-2"
+        href="https://github.com/JoseEnsoIII/BullsSignals"
+        target="_blank"
+        rel="noreferrer noopener"
+      >
+        Code <i className="fa-brands fa-github text-2xl"></i>
+      </a>
+      
+    </div>
           </div>
         </div>
 
