@@ -1,11 +1,10 @@
-
 export const Contact = () => {
   return (
     <section id="contact" className="bg-white py-20 relative overflow-hidden ">
       <div className="absolute w-[150px] top-0 sm:right-0 xl:right-20">
         <img className="w-full h-full object-cover" src="/images/3dimage.png" />
       </div>
-      
+
       <div className="m-auto sm:w-[90%] md:w-[60%]">
         <h1 className="text-blue-400 font-bold uppercase">Contact </h1>
         <p className="text-slate-900 text-2xl font-bold tracking-widest">
@@ -39,24 +38,33 @@ export const Contact = () => {
               </div>
               <div>
                 <p className="font-bold">Email</p>
-                <p className=" text-blue-600 whitespace-normal">joseensothethird@gmail.com </p>
+                <p className=" text-blue-600 whitespace-normal">
+                  joseensothethird@gmail.com{" "}
+                </p>
               </div>
             </div>
 
             <div className="p-5 rounded-full shadow-mmd border-t border-l border-slate-900 flex items-center gap-1 sm:mt-5 md:mt-0">
-  <div className="w-[60px]">
-    <img
-      className="w-full h-full object-cover"
-      src="https://img.icons8.com/?size=100&id=115648&format=png&color=000000"
-      alt="Resume Icon"
-    />
-  </div>
-  <div>
-    <p className="font-bold">Resume</p>
-    <a href="https://drive.google.com/file/d/1p4wJOOTbWwRij6sfKx9mIAdsMXr3rmIQ/view?usp=drive_link" className="text-blue-600 whitespace-normal">Click Here</a>
-  </div>
-</div>
+              <div className="w-[60px]">
+                <img
+                  className="w-full h-full object-cover"
+                  src="https://img.icons8.com/?size=100&id=MR3dZdlA53te&format=png&color=000000"
+                  alt="Resume Icon"
+                />
+              </div>
+              <div>
+                <p className="font-bold">Resume</p>
+                <a
+  href="https://drive.google.com/file/d/1v316jLZNMqEdveJiJSu2Iz-lN5zszCCd/view"
+  className="text-blue-600 whitespace-normal"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Click Here
+</a>
 
+              </div>
+            </div>
           </div>
         </div>
       </div>
