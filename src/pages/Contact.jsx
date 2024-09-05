@@ -55,14 +55,13 @@ export const Contact = () => {
               <div>
                 <p className="font-bold">Resume</p>
                 <a
-  href="https://drive.google.com/file/d/1v316jLZNMqEdveJiJSu2Iz-lN5zszCCd/view"
-  className="text-blue-600 whitespace-normal"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  Click Here
-</a>
-
+                  href="https://drive.google.com/file/d/1v316jLZNMqEdveJiJSu2Iz-lN5zszCCd/view"
+                  className="text-blue-600 whitespace-normal"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Click Here
+                </a>
               </div>
             </div>
           </div>
