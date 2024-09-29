@@ -34,22 +34,126 @@ export const About = () => {
   };
 
   return (
-    <section id="about" className="bg-white py-20 flex items-center justify-center overflow-hidden">
-      <motion.div initial="offScreen" whileInView="onScreen" viewport={{ once: true }} className="m-auto sm:w-[90%] md:w-[60%] grid xl:grid-cols-2 gap-10">
-        <motion.div variants={imageVariant} className="flex justify-center items-center">
+    <section
+      id="about"
+      className="bg-white py-20 flex items-center justify-center overflow-hidden"
+    >
+      <motion.div
+        initial="offScreen"
+        whileInView="onScreen"
+        viewport={{ once: true }}
+        className="m-auto sm:w-[90%] md:w-[60%] grid xl:grid-cols-2 gap-10"
+      >
+        <motion.div
+          variants={imageVariant}
+          className="flex justify-center items-center"
+        >
           <div className="relative z-50">
-            <img className="w-full h-full rounded-xl h-full z-50" src="/images/bcp.jpg" alt="" />
+            <img
+              className="w-full h-full rounded-xl h-full z-50"
+              src="/images/bcp.jpg"
+              alt=""
+            />
             <div className="rounded-full bg-blue-400 absolute w-[60px] h-[60px] top-0 z-0"></div>
             <div className="rounded-full bg-emerald-400 absolute w-[60px] h-[60px] top-0 right-0 z-0"></div>
             <div className="rounded-full bg-red-400 absolute w-[60px] h-[60px] bottom-0 right-0 z-0"></div>
             <div className="rounded-full bg-indigo-400 absolute w-[60px] h-[60px] bottom-0 left-0 z-0"></div>
           </div>
         </motion.div>
-        <motion.div variants={textVariant} className="flex flex-col gap-5 sm:text-center xl:text-justify">
+        <motion.div
+          variants={textVariant}
+          className="flex flex-col gap-5 sm:text-center xl:text-justify"
+        >
           <h1 className="text-blue-400 font-bold">ABOUT ME 😉</h1>
-          <h2 className="text-2xl text-slate-900 font-bold sm:text-center md:text-start">A dedicated Frontend Developer based in Valenzuela, Philippines 📍</h2>
-          <motion.p initial="offScreen" whileInView="onScreen" viewport={{ once: true, amount: 0.8 }} className="opacity-60">
-            I’m a Frontend Developer based in Valenzuela, Philippines 📍, with a Computer Engineering degree from Bestlink College of the Philippines. At Metacore Systems Inc., I implemented MVC architecture with PHP for a POS system and worked on an IoT project using ESP32, gaining valuable experience in both web and hardware integration. During my time at Iconitrax, I developed a comprehensive 8-page WordPress website using the Divi theme, optimizing it for performance and responsiveness while collaborating with the design team for seamless integration. As a Support Frontend Developer at Quantum, I contributed to the development of an e-gambling site using the MERN stack, created dynamic frontend interfaces with Vue.js 3, and provided ongoing maintenance and support for existing systems. My tech stack includes frontend technologies like Vue.js, React.js, Angular.js, and backend technologies such as Node.js and Express.js, with experience in databases like MongoDB and MySQL. Additionally, I have a solid foundation in API integration and hardware projects using Arduino. I am passionate about tackling new challenges and continuously expanding my skill set to deliver innovative digital solutions.
+          <h2 className="text-2xl text-slate-900 font-bold sm:text-center md:text-start">
+            A dedicated Frontend Developer based in Valenzuela, Philippines 📍
+          </h2>
+          <motion.p
+            initial="offScreen"
+            whileInView="onScreen"
+            viewport={{ once: true, amount: 0.8 }}
+            className="opacity-60"
+          >
+            I'm a Frontend Developer from Valenzuela, Philippines, with a degree
+            in Computer Engineering. I have experience in web development,
+            including building WordPress sites and contributing to IoT projects.
+          </motion.p>
+          <h2 className="text-2xl text-slate-900 font-bold sm:text-center md:text-start">
+            Skills
+          </h2>
+          <motion.p
+            initial="offScreen"
+            whileInView="onScreen"
+            viewport={{ once: true, amount: 0.8 }}
+            className="opacity-60"
+          >
+            <ul>
+              <li>
+                <strong>Frontend:</strong> Vue.js, React.js, Angular.js, HTML,
+                CSS, Bootstrap, Vite.js
+              </li>
+              <li>
+                <strong>Backend:</strong> Node.js, Express.js, PHP
+              </li>
+              <li>
+                <strong>Databases:</strong> MySQL, MongoDB, Firebase
+              </li>
+              <li>
+                <strong>Other:</strong> WordPress, API Integration, Git, VSCode
+              </li>
+              <li>
+                <strong>Hardware/IoT:</strong> Arduino (C++), ESP32
+              </li>
+              <li>
+                <strong>Web Development Tools:</strong> TailwindCSS, Elementor,
+                Divi Theme
+              </li>
+            </ul>
+          </motion.p>
+          <h2 className="text-2xl text-slate-900 font-bold sm:text-center md:text-start">
+            Work Experience{" "}
+          </h2>
+          <motion.p
+            initial="offScreen"
+            whileInView="onScreen"
+            viewport={{ once: true, amount: 0.8 }}
+            className="opacity-60"
+          >
+            <ul>
+              <li>
+                <strong>Metacore Systems Inc.</strong> - Web Developer Intern
+                (March - June 2023)
+              </li>
+              <li>
+                <strong>Iconitrax</strong> - WordPress Developer (September 2023
+                - February 2024)
+              </li>
+              <li>
+                <strong>Quantum</strong> - Front-End Developer (February 2024 -
+                June 2024)
+              </li>
+            </ul>
+          </motion.p>
+
+          <h2 className="text-2xl text-slate-900 font-bold sm:text-center md:text-start">
+            Certificate{" "}
+          </h2>
+          <motion.p
+            initial="offScreen"
+            whileInView="onScreen"
+            viewport={{ once: true, amount: 0.8 }}
+            className="opacity-60"
+          >
+            <ul>
+              <li>
+              <a><strong>Google Cybersecurity</strong> (September 2024)</a>
+              </li>
+              <li>
+              <a> <strong>Advance React</strong> (--)</a>
+              </li>
+              <li> <a><strong>Modern Javasript</strong> (--) </a>      
+              </li>     
+            </ul>
           </motion.p>
         </motion.div>
       </motion.div>

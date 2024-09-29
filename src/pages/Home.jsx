@@ -40,7 +40,7 @@ export const Home = () => {
       <div className="m-auto sm:w-[90%] md:w-[60%] flex sm:flex-col-reverse xl:flex-row gap-5">
         <motion.div>
           <motion.h1 variants={titleVariant} initial="offScreen" whileInView={`onScreen`} className="relative  xl:text-5xl sm:text-[30px] md:text-6xl  sm:text-center xl:text-start tracking-wide font-bold text-gray-800">
-            Front-End Developer <span className="absolute animate-wiggle">👋🏻</span>
+            React Developer <span className="absolute animate-wiggle">👋🏻</span>
           </motion.h1>
           <motion.p variants={textVariant} initial="offScreen" whileInView={`onScreen`} className="sm:text-center xl:text-start text-gray-800 tracking-wide text-[16px] sm:mt-0 md:mt-10 leading-6">
           Hi, I'm Jose C. Enso III, a React.js Developer, WordPress Developer, and Computer Engineer based in Valenzuela, Philippines. 📍
