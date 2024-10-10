@@ -29,7 +29,7 @@ export const Projects = () => {
       >
         <img
           className="w-full h-full object-cover rounded-xl shadow-mmd border-t border-l border-slate-600"
-          src="/images/project2.PNG"
+          src="/images/projects/project2.PNG"
           alt=""
         />
       </motion.div>
@@ -109,7 +109,7 @@ export const Projects = () => {
               >
                 <img
                   className="w-full h-full object-cover rounded-xl shadow-mmd border-t border-l border-slate-600"
-                  src="/images/iconitrax.png"
+                  src="/images/projects/iconitrax.png"
                   alt=""
                 />
               </motion.div>
@@ -180,7 +180,7 @@ export const Projects = () => {
               >
                 <img
                   className="w-full h-full object-cover rounded-xl shadow-mmd border-t border-l border-slate-600"
-                  src="/images/rf.png"
+                  src="/images/projects/rf.png"
                   alt=""
                 />
               </motion.div>
@@ -245,15 +245,7 @@ export const Projects = () => {
               >
                 Code <i className="fa-brands fa-github text-2xl"></i>
               </a>
-              <a
-                className="flex font-semibold items-center justify-between gap-2"
-                href="https://reactfl1x.vercel.app/"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                Live Demo{" "}
-                <i className="fa-solid fa-share-from-square text-2xl"></i>
-              </a>
+             
             </div>
           </div>
         </div>
@@ -271,7 +263,7 @@ export const Projects = () => {
               >
                 <img
                   className="w-full h-full object-cover rounded-xl border-t border-l border-slate-600 "
-                  src="/images/sp.png"
+                  src="/images/projects/sp.png"
                   alt=""
                 />
               </motion.div>
@@ -339,7 +331,7 @@ export const Projects = () => {
               >
                 <img
                   className="w-full h-full object-cover rounded-xl shadow-mmd border-l "
-                  src="/images/pph.png"
+                  src="/images/projects/pph.png"
                   alt=""
                 />
               </motion.div>
@@ -405,7 +397,7 @@ export const Projects = () => {
               >
                 <img
                   className="w-full h-full object-cover rounded-xl shadow-mmd border-t border-l border-slate-600"
-                  src="/images/bs.png"
+                  src="/images/projects/bs.png"
                   alt=""
                 />
               </motion.div>
@@ -478,7 +470,7 @@ export const Projects = () => {
               >
                 <img
                   className="w-full h-full object-cover rounded-xl shadow-mmd border-t border-l border-slate-600"
-                  src="/images/111.PNG"
+                  src="/images/projects/111.PNG"
                   alt=""
                 />
               </motion.div>
@@ -535,7 +527,7 @@ export const Projects = () => {
               >
                 <img
                   className="w-full h-full object-cover rounded-xl shadow-mmd border-t border-l border-slate-600"
-                  src="/images/ta.png"
+                  src="/images/projects/ta.png"
                   alt=""
                 />
               </motion.div>

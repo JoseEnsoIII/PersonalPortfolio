@@ -18,7 +18,7 @@ export const Contact = () => {
               <div className="w-[40px]">
                 <img
                   className="w-full h-full object-cover"
-                  src="/images/location.png"
+                  src="/images/portfolio-icon/location1.svg"
                   alt=""
                 />
               </div>
@@ -32,13 +32,13 @@ export const Contact = () => {
               <div className="w-[40px]">
                 <img
                   className="w-full h-full object-cover"
-                  src="/images/email.png"
+                  src="/images/portfolio-icon/email.svg"
                   alt=""
                 />
               </div>
               <div>
                 <p className="font-bold">Email</p>
-                <p className=" text-blue-600 whitespace-normal">
+                <p className=" text-black whitespace-normal">
                   joseensothethird@gmail.com{" "}
                 </p>
               </div>
@@ -48,7 +48,7 @@ export const Contact = () => {
               <div className="w-[60px]">
                 <img
                   className="w-full h-full object-cover"
-                  src="https://img.icons8.com/?size=100&id=MR3dZdlA53te&format=png&color=000000"
+                  src="/images/portfolio-icon/resume.svg"
                   alt="Resume Icon"
                 />
               </div>

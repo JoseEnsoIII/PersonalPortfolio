@@ -51,7 +51,7 @@ export const About = () => {
           <div className="relative z-50">
             <img
               className="w-full h-full rounded-xl h-full z-50"
-              src="/images/bcp.jpg"
+              src="/images/personal/bcp.jpg"
               alt=""
             />
             <div className="rounded-full bg-blue-400 absolute w-[60px] h-[60px] top-0 z-0"></div>
@@ -78,9 +78,7 @@ export const About = () => {
             in Computer Engineering. I have experience in web development,
             including building WordPress sites and contributing to IoT projects.
           </motion.p>
-          <h2 className="text-2xl text-slate-900 font-bold sm:text-center md:text-start">
-            Skills
-          </h2>
+          <h1 className="text-bLACK font-bold">SKILLS  🧑‍💻</h1>
           <motion.p
             initial="offScreen"
             whileInView="onScreen"
@@ -110,9 +108,7 @@ export const About = () => {
               </li>
             </ul>
           </motion.p>
-          <h2 className="text-2xl text-slate-900 font-bold sm:text-center md:text-start">
-            Work Experience{" "}
-          </h2>
+          <h1 className="text-bLACK font-bold">WORK EXPERIENCE  💼</h1>
           <motion.p
             initial="offScreen"
             whileInView="onScreen"
@@ -134,10 +130,7 @@ export const About = () => {
               </li>
             </ul>
           </motion.p>
-
-          <h2 className="text-2xl text-slate-900 font-bold sm:text-center md:text-start">
-            Certificate{" "}
-          </h2>
+          <h1 className="text-bLACK font-bold">CERTIFICATE  📝</h1>
           <motion.p
             initial="offScreen"
             whileInView="onScreen"
@@ -146,13 +139,15 @@ export const About = () => {
           >
             <ul>
               <li>
-              <a><strong>Google Cybersecurity</strong> (September 2024)</a>
+                <a><strong>Google Cybersecurity</strong> (September 2024)</a>
               </li>
               <li>
-              <a> <strong>Advance React</strong> (--)</a>
+                <a> <strong>Advance React</strong> (--)</a>
               </li>
-              <li> <a><strong>Modern Javasript</strong> (--) </a>      
-              </li>     
+              <li>  <a href="https://drive.google.com/file/d/166EGotfwtT3YArRjAPhiFuQzRyLjwosm/view" >
+                <strong>Modern Javascript</strong> (September 2024)
+              </a>
+              </li>
             </ul>
           </motion.p>
         </motion.div>
