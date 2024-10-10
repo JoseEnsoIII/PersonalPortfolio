@@ -534,7 +534,7 @@ export const Projects = () => {
             </a>
           </div>
           <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5">
-            <h1 className="text-center font-bold text-[20px]">Travel Agency</h1>
+            <h1 className="text-center font-bold text-[20px]">Cyber Security Projects</h1>
             <motion.p
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -542,7 +542,7 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-              My Internship Project
+              Own Project
             </motion.p>
             <motion.p
               initial={{ opacity: 0, x: -50 }}
@@ -551,20 +551,28 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-              Elevating your Philippine travel experience with seamless online
-              solutions, bringing you closer to captivating destinations and
-              unforgettable journeys.
+              I'm still studying it in my online course dont mind the photo
             </motion.p>
             <div className="flex gap-5 justify-center">
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                React
+                Linux
               </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                Vite
+                SQL
               </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                Tailwind
+                Cloud Security
               </span>
+              
+            </div>
+            <div className="flex gap-5 justify-center">
+            <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+                Web Security
+              </span>
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+                Networking
+              </span>
+             
             </div>
             <div className="flex gap-5 items-center justify-center">
               <a
@@ -573,7 +581,7 @@ export const Projects = () => {
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                Live Demo{" "}
+                Code{" "}
                 <i className="fa-solid fa-share-from-square text-2xl"></i>
               </a>
             </div>

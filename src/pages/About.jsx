@@ -1,6 +1,12 @@
 import { motion } from "framer-motion";
+import { useState } from "react";
 
 export const About = () => {
+  const [openSection, setOpenSection] = useState(null);
+
+  const toggleAccordion = (section) => {
+    setOpenSection(openSection === section ? null : section);
+  };
   const imageVariant = {
     offScreen: {
       y: 300,
@@ -78,78 +84,92 @@ export const About = () => {
             in Computer Engineering. I have experience in web development,
             including building WordPress sites and contributing to IoT projects.
           </motion.p>
-          <h1 className="text-bLACK font-bold">SKILLS  🧑‍💻</h1>
-          <motion.p
-            initial="offScreen"
-            whileInView="onScreen"
-            viewport={{ once: true, amount: 0.8 }}
-            className="opacity-60"
-          >
-            <ul>
-              <li>
-                <strong>Frontend:</strong> Vue.js, React.js, Angular.js, HTML,
-                CSS, Bootstrap, Vite.js
-              </li>
-              <li>
-                <strong>Backend:</strong> Node.js, Express.js, PHP
-              </li>
-              <li>
-                <strong>Databases:</strong> MySQL, MongoDB, Firebase
-              </li>
-              <li>
-                <strong>Other:</strong> WordPress, API Integration, Git, VSCode
-              </li>
-              <li>
-                <strong>Hardware/IoT:</strong> Arduino (C++), ESP32
-              </li>
-              <li>
-                <strong>Web Development Tools:</strong> TailwindCSS, Elementor,
-                Divi Theme
-              </li>
-            </ul>
-          </motion.p>
-          <h1 className="text-bLACK font-bold">WORK EXPERIENCE  💼</h1>
-          <motion.p
-            initial="offScreen"
-            whileInView="onScreen"
-            viewport={{ once: true, amount: 0.8 }}
-            className="opacity-60"
-          >
-            <ul>
-              <li>
-                <strong>Metacore Systems Inc.</strong> - Web Developer Intern
-                (March - June 2023)
-              </li>
-              <li>
-                <strong>Iconitrax</strong> - WordPress Developer (September 2023
-                - February 2024)
-              </li>
-              <li>
-                <strong>Quantum</strong> - Front-End Developer (February 2024 -
-                June 2024)
-              </li>
-            </ul>
-          </motion.p>
-          <h1 className="text-bLACK font-bold">CERTIFICATE  📝</h1>
-          <motion.p
-            initial="offScreen"
-            whileInView="onScreen"
-            viewport={{ once: true, amount: 0.8 }}
-            className="opacity-60"
-          >
-            <ul>
-              <li>
-                <a><strong>Google Cybersecurity</strong> (September 2024)</a>
-              </li>
-              <li>
-                <a> <strong>Advance React</strong> (--)</a>
-              </li>
-              <li>  <a href="https://drive.google.com/file/d/166EGotfwtT3YArRjAPhiFuQzRyLjwosm/view" >
-                <strong>Modern Javascript</strong> (September 2024)
+          <h1 className="text-black font-bold" onClick={() => toggleAccordion('skills')}>
+        SKILLS 🧑‍💻 ▽
+      </h1>
+      {openSection === 'skills' && (
+        <motion.p
+          initial="offScreen"
+          whileInView="onScreen"
+          viewport={{ once: true, amount: 0.8 }}
+          className="opacity-60"
+        >
+          <ul>
+            <li>
+              <strong>Frontend:</strong> Vue.js, React.js, Angular.js, HTML, CSS, Bootstrap, Vite.js
+            </li>
+            <li>
+              <strong>Backend:</strong> Node.js, Express.js, PHP
+            </li>
+            <li>
+              <strong>Databases:</strong> MySQL, MongoDB, Firebase
+            </li>
+            <li>
+              <strong>Other:</strong> WordPress, API Integration, Git, VSCode
+            </li>
+            <li>
+              <strong>Hardware/IoT:</strong> Arduino (C++), ESP32
+            </li>
+            <li>
+              <strong>Web Development Tools:</strong> TailwindCSS, Elementor, Divi Theme
+            </li>
+          </ul>
+        </motion.p>
+      )}
+      
+      <h1 className="text-black font-bold" onClick={() => toggleAccordion('workExperience')}>
+        WORK EXPERIENCE 💼 ▽
+      </h1>
+      {openSection === 'workExperience' && (
+        <motion.p
+          initial="offScreen"
+          whileInView="onScreen"
+          viewport={{ once: true, amount: 0.8 }}
+          className="opacity-60"
+        >
+          <ul>
+            <li>
+              <strong>Metacore Systems Inc.</strong> - Web Developer Intern (March - June 2023)
+            </li>
+            <li>
+              <strong>Iconitrax</strong> - WordPress Developer (September 2023 - February 2024)
+            </li>
+            <li>
+              <strong>Quantum</strong> - Front-End Developer (February 2024 - June 2024)
+            </li>
+          </ul>
+        </motion.p>
+      )}
+
+      <h1 className="text-black font-bold" onClick={() => toggleAccordion('certificates')}>
+        CERTIFICATES 📝 ▽
+      </h1>
+      {openSection === 'certificates' && (
+        <motion.p
+          initial="offScreen"
+          whileInView="onScreen"
+          viewport={{ once: true, amount: 0.8 }}
+          className="opacity-60"
+        >
+          <ul>
+            <li>
+              <a>
+                <strong>Google Cybersecurity</strong> - Coursera (September 2024)
               </a>
-              </li>
-            </ul>
-          </motion.p>
+            </li>
+            <li>
+              <a>
+                <strong>Advance React</strong> - Udemy (Oct. 2024)
+              </a>
+            </li>
+            <li>
+              <a href="https://drive.google.com/file/d/166EGotfwtT3YArRjAPhiFuQzRyLjwosm/view">
+                <strong>Modern Javascript</strong> - Udemy (Oct. 18 2024)
+              </a>
+            </li>
+          </ul>
+        </motion.p>
+      )}
         </motion.div>
       </motion.div>
     </section>
