@@ -13,82 +13,82 @@ export const Projects = () => {
         </h2>
         {/* First Project */}
         <div className="bg-white rounded-xl shadow-md xl:flex items-start p-10 gap-5 mt-10">
-  <div className="">
-    <a
-      className=""
-      href="https://www.metacoresystemsinc.com"
-      target="_blank"
-      rel="noreferrer noopener"
-    >
-      <motion.div
-        initial={{ opacity: 0, x: -50 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
-        viewport={{ once: true }}
-        className="w-full"
-      >
-        <img
-          className="w-full h-full object-cover rounded-xl shadow-mmd border-t border-l border-slate-600"
-          src="/images/projects/project2.PNG"
-          alt=""
-        />
-      </motion.div>
-    </a>
-  </div>
-  <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5">
-    <h1 className="text-center font-bold text-[20px]">
-      IT Solutions Company
-    </h1>
-    <motion.p
-      initial={{ opacity: 0, x: 50 }}
-      whileInView={{ opacity: 1, x: 0 }}
-      transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
-      viewport={{ once: true }}
-      className="text-center text-gray-500"
-    >
-      My Internship Project
-    </motion.p>
-    <motion.p
-      initial={{ opacity: 0, x: 50 }}
-      whileInView={{ opacity: 1, x: 0 }}
-      transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
-      viewport={{ once: true }}
-      className="text-center text-gray-500"
-    >
-      Empowering businesses through innovative IT solutions to drive efficiency, growth, and digital transformation.
-    </motion.p>
-    <div className="flex gap-5 justify-center">
-      <span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
-        React
-      </span>
-      <span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
-        Vite.Js
-      </span>
-      <span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
-        Tailwind
-      </span>
-    </div>
-    <div className="flex gap-5 items-center justify-center">
-      <a
-        className="flex font-semibold items-center justify-between gap-2"
-        href="https://github.com/JoseEnsoIII/ITSolutions.inc"
-        target="_blank"
-        rel="noreferrer noopener"
-      >
-        Code <i className="fa-brands fa-github text-2xl"></i>
-      </a>
-      <a
-        className="flex font-semibold items-center justify-between gap-2"
-        href="https://itsolutions-inc.vercel.app/"
-        target="_blank"
-        rel="noreferrer noopener"
-      >
-        Live Demo{" "}
-        <i className="fa-solid fa-share-from-square text-2xl"></i>
-      </a>
-    </div>
-  </div>
-</div>
+          <div className="">
+            <a
+              className=""
+              href="https://www.metacoresystemsinc.com"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <motion.div
+                initial={{ opacity: 0, x: -50 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+                viewport={{ once: true }}
+                className="w-full"
+              >
+                <img
+                  className="w-full h-full object-cover rounded-xl shadow-mmd border-t border-l border-slate-600"
+                  src="/images/projects/project2.PNG"
+                  alt=""
+                />
+              </motion.div>
+            </a>
+          </div>
+          <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5">
+            <h1 className="text-center font-bold text-[20px]">
+              IT Solutions Company
+            </h1>
+            <motion.p
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+              viewport={{ once: true }}
+              className="text-center text-gray-500"
+            >
+              My Internship Project
+            </motion.p>
+            <motion.p
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+              viewport={{ once: true }}
+              className="text-center text-gray-500"
+            >
+              Empowering businesses through innovative IT solutions to drive efficiency, growth, and digital transformation.
+            </motion.p>
+            <div className="flex gap-5 justify-center">
+              <span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
+                React
+              </span>
+              <span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
+                Vite.Js
+              </span>
+              <span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
+                Tailwind
+              </span>
+            </div>
+            <div className="flex gap-5 items-center justify-center">
+              <a
+                className="flex font-semibold items-center justify-between gap-2"
+                href="https://github.com/JoseEnsoIII/ITSolutions.inc"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Code <i className="fa-brands fa-github text-2xl"></i>
+              </a>
+              <a
+                className="flex font-semibold items-center justify-between gap-2"
+                href="https://itsolutions-inc.vercel.app/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Live Demo{" "}
+                <i className="fa-solid fa-share-from-square text-2xl"></i>
+              </a>
+            </div>
+          </div>
+        </div>
 
 
         {/* 2nd Project */}
@@ -229,7 +229,7 @@ export const Projects = () => {
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 React
               </span>
-              
+
             </div>
             <div className="flex gap-5 justify-center">
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
@@ -245,7 +245,7 @@ export const Projects = () => {
               >
                 Code <i className="fa-brands fa-github text-2xl"></i>
               </a>
-             
+
             </div>
           </div>
         </div>
@@ -370,7 +370,7 @@ export const Projects = () => {
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 SQL
               </span>
-              
+
             </div>
             <div className="flex gap-5 justify-center">
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
@@ -439,16 +439,16 @@ export const Projects = () => {
               </span>
             </div>
             <div className="flex gap-5 items-center justify-center">
-      <a
-        className="flex font-semibold items-center justify-between gap-2"
-        href="https://github.com/JoseEnsoIII/BullsSignals"
-        target="_blank"
-        rel="noreferrer noopener"
-      >
-        Code <i className="fa-brands fa-github text-2xl"></i>
-      </a>
-      
-    </div>
+              <a
+                className="flex font-semibold items-center justify-between gap-2"
+                href="https://github.com/JoseEnsoIII/BullsSignals"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Code <i className="fa-brands fa-github text-2xl"></i>
+              </a>
+
+            </div>
           </div>
         </div>
 
@@ -561,18 +561,18 @@ export const Projects = () => {
                 SQL
               </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                Cloud Security
+                Python
               </span>
-              
+
             </div>
             <div className="flex gap-5 justify-center">
-            <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                Web Security
-              </span>
+
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 Networking
               </span>
-             
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+                Cloud Security
+              </span>
             </div>
             <div className="flex gap-5 items-center justify-center">
               <a
@@ -581,7 +581,7 @@ export const Projects = () => {
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                Code{" "}
+                Projects{" "}
                 <i className="fa-solid fa-share-from-square text-2xl"></i>
               </a>
             </div>
