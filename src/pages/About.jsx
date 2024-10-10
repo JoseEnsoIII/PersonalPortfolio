@@ -113,6 +113,15 @@ export const About = () => {
             <li>
               <strong>Web Development Tools:</strong> TailwindCSS, Elementor, Divi Theme
             </li>
+            <li>
+              <strong>Cyber Security:</strong> Cybersecurity Fundamentals, Threat Detection and Response, Network Security, System Security, Incident Response and Recovery, Security Compliance and Risk Management
+            </li>
+            <li>
+              <strong>Cyber Security Tools:</strong> Security Information and Event Management (SIEM) tools, Intrusion Detection Systems (IDS), Firewalls, Virtual Private Networks (VPNs), Packet sniffers and network monitoring tools
+            </li>
+            <li>
+              <strong>Programming</strong> Python for scripting and automation, Understanding of network protocols (TCP/IP, HTTP, etc.), Knowledge of web application security (OWASP Top Ten)
+            </li>
           </ul>
         </motion.p>
       )}

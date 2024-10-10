@@ -45,7 +45,7 @@ export const Contact = () => {
             </div>
 
             <div className="p-5 rounded-full shadow-mmd border-t border-l border-slate-900 flex items-center gap-1 sm:mt-5 md:mt-0">
-              <div className="w-[60px]">
+              <div className="w-[40px]">
                 <img
                   className="w-full h-full object-cover"
                   src="/images/portfolio-icon/resume.svg"
@@ -62,6 +62,7 @@ export const Contact = () => {
                 >
                   Click Here
                 </a>
+                
               </div>
             </div>
           </div>
