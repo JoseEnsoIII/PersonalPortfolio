@@ -144,22 +144,18 @@ export const Projects = () => {
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 CMS
               </span>
-
-
             </div>
             <div className="flex gap-5 justify-center">
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 Elementor/Divi
               </span>
-              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                GoHighLevel (GHL)
-              </span>
-
             </div>
             <div className="flex gap-5 justify-center">
-
+ <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+          GHL
+              </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                Funnel Building
+                Funnel
               </span>
             </div>
             <div className="flex gap-5 items-center justify-center">
