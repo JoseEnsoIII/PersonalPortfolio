@@ -82,48 +82,49 @@ export const About = () => {
           >
             I'm a Frontend Developer from Valenzuela, Philippines, with a degree
             in Computer Engineering. I have experience in web development,
-            including building WordPress sites and contributing to IoT projects.
+            including building WordPress sites and Front-End projects.
           </motion.p>
           <h1 className="text-black font-bold" onClick={() => toggleAccordion('skills')}>
         SKILLS 🧑‍💻 ▽
       </h1>
       {openSection === 'skills' && (
         <motion.p
-          initial="offScreen"
-          whileInView="onScreen"
-          viewport={{ once: true, amount: 0.8 }}
-          className="opacity-60"
-        >
-          <ul>
-            <li>
-              <strong>Frontend:</strong> Vue.js, React.js, Angular.js, HTML, CSS, Bootstrap, Vite.js
-            </li>
-            <li>
-              <strong>Backend:</strong> Node.js, Express.js, PHP
-            </li>
-            <li>
-              <strong>Databases:</strong> MySQL, MongoDB, Firebase
-            </li>
-            <li>
-              <strong>Other:</strong> WordPress, API Integration, Git, VSCode
-            </li>
-            <li>
-              <strong>Hardware/IoT:</strong> Arduino (C++), ESP32
-            </li>
-            <li>
-              <strong>Web Development Tools:</strong> TailwindCSS, Elementor, Divi Theme
-            </li>
-            <li>
-              <strong>Cyber Security:</strong> Cybersecurity Fundamentals, Threat Detection and Response, Network Security, System Security, Incident Response and Recovery, Security Compliance and Risk Management
-            </li>
-            <li>
-              <strong>Cyber Security Tools:</strong> Security Information and Event Management (SIEM) tools, Intrusion Detection Systems (IDS), Firewalls, Virtual Private Networks (VPNs), Packet sniffers and network monitoring tools
-            </li>
-            <li>
-              <strong>Programming</strong> Python for scripting and automation, Understanding of network protocols (TCP/IP, HTTP, etc.), Knowledge of web application security (OWASP Top Ten)
-            </li>
-          </ul>
-        </motion.p>
+        initial="offScreen"
+        whileInView="onScreen"
+        viewport={{ once: true, amount: 0.8 }}
+        className="opacity-60"
+      >
+        <ul>
+          <li>
+            <strong>Frontend:</strong> Vue.js, React.js, Angular.js,   Bootstrap, Vite.js, WordPress.
+          </li>
+          <li>
+            <strong>Backend:</strong> Node.js, Express.js.
+          </li>
+          <li>
+            <strong>Databases:</strong> MySQL, MongoDB, Firebase.
+          </li>
+          <li>
+            <strong>Other Skills:</strong> API Integration, Git, VSCode, GoHighLevel (GHL), Funnel Building.
+          </li>
+          <li>
+            <strong>Hardware/IoT:</strong> Arduino (C++), Robotics.
+          </li>
+          <li>
+            <strong>Web Development Tools:</strong> TailwindCSS, CSS, HTML, Elementor, Divi Theme.
+          </li>
+          <li>
+            <strong>Cyber Security:</strong> Threat Detection, Network Security, Incident Response, Risk Management.
+          </li>
+          <li>
+            <strong>Cyber Security Tools:</strong> SIEM, IDS, Firewalls, VPNs, Network Monitoring Tools, OWASP, TCP/IP, HTTP.
+          </li>
+          <li>
+            <strong>Programming:</strong> Python, Javascript, C++.   
+          </li>
+        </ul>
+      </motion.p>
+      
       )}
       
       <h1 className="text-black font-bold" onClick={() => toggleAccordion('workExperience')}>
@@ -174,6 +175,11 @@ export const About = () => {
             <li>
               <a href="https://drive.google.com/file/d/166EGotfwtT3YArRjAPhiFuQzRyLjwosm/view">
                 <strong>Modern Javascript</strong> - Udemy (Oct. 18 2024)
+              </a>
+            </li>
+            <li>
+              <a href="https://drive.google.com/file/d/166EGotfwtT3YArRjAPhiFuQzRyLjwosm/view">
+                <strong>Basic Korean Class</strong> - NLSC (Nov 2024)
               </a>
             </li>
           </ul>
