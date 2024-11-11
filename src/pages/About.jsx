@@ -179,7 +179,7 @@ export const About = () => {
             </li>
             <li>
               <a href="https://drive.google.com/file/d/166EGotfwtT3YArRjAPhiFuQzRyLjwosm/view">
-                <strong>Basic Korean Class</strong> - NLSC (Nov 2024)
+                <strong>NLSC Basic Korean Class</strong> - NLSC (Nov 2024)
               </a>
             </li>
           </ul>

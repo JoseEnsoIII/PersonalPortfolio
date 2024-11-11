@@ -34,7 +34,7 @@ export const Header = () => {
 
       <header className="fixed top-0  shadow-md w-full z-50" id="header">
         <div className="flex items-center justify-between sm:px-5 md:px-20 py-5 ">
-          <a href="#home" className="font-bold text-white text-2xl relative">Enso III<p className="animate-spin-slow absolute top-0 right-[-35px]">⚙️</p></a>
+          <a href="#home" className="font-bold text-white text-2xl relative">EnsoIII<p className="animate-spin-slow absolute top-0 right-[-35px]">⚙️</p></a>
           <nav className="md:flex items-center justify-between sm:hidden  gap-5 text-white font-semibold">
           <a href="#home">
             <i className="text-white fa-solid fa-house-user"></i> Home
