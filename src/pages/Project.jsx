@@ -149,14 +149,15 @@ export const Projects = () => {
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 Elementor/Divi
               </span>
-            </div>
-            <div className="flex gap-5 justify-center">
- <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
           GHL
               </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 Funnel
               </span>
+            </div>
+            <div className="flex gap-5 justify-center">
+ 
             </div>
             <div className="flex gap-5 items-center justify-center">
               <a
@@ -497,7 +498,7 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-              Web Design of my Work Project In Wordpress
+             Sample Design of <strong>Iconitrax</strong> Before Final Design
             </motion.p>
             <div className="flex gap-5 justify-center">
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
@@ -561,7 +562,7 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-              I'm still studying it in my online course dont mind the photo
+              I'm still studying it in my online course don't mind the photo
             </motion.p>
             <div className="flex gap-5 justify-center">
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
