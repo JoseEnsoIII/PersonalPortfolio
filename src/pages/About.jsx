@@ -152,7 +152,7 @@ export const About = () => {
       )}
 
       <h1 className="text-black font-bold" onClick={() => toggleAccordion('certificates')}>
-        CERTIFICATES 📝 ▽
+        CERTIFICATES  📝 ▽
       </h1>
       {openSection === 'certificates' && (
         <motion.p
@@ -164,7 +164,7 @@ export const About = () => {
           <ul>
             <li>
               <a>
-                <strong>Google Cybersecurity</strong> - Coursera (September 2024)
+                <strong>Google Cybersecurity</strong> - Coursera (September 2024 - Ongoing)
               </a>
             </li>
             <li>
@@ -179,7 +179,7 @@ export const About = () => {
             </li>
             <li>
               <a href="https://drive.google.com/file/d/166EGotfwtT3YArRjAPhiFuQzRyLjwosm/view">
-                <strong>NLSC Basic Korean Class</strong> - NLSC (Nov 2024)
+                <strong>NLSC Basic Korean Class</strong> - NLSC (Oct - Nov 2024)
               </a>
             </li>
           </ul>

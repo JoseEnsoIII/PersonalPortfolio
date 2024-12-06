@@ -56,7 +56,7 @@ export const Home = () => {
   <a className="" href="https://github.com/JoseEnsoIII" target="_blank"rel="noreferrer noopener"><i className="fa-brands fa-square-github text-3xl ml-5"></i></a>
   <a className="" href="https://www.facebook.com/enso.jose.31/" target="_blank"rel="noreferrer noopener"><i className="fa-brands fa-square-facebook text-3xl ml-5"></i></a>
   <a className="" href="https://www.instagram.com/ensothethird/" target="_blank"rel="noreferrer noopener"><i className="fa-brands fa-square-instagram text-3xl ml-5"></i></a>
-  <a className=""href="https://t.me/jeromedave"target="_blank" rel="noreferrer noopener"><i className="fa-brands fa-telegram text-3xl ml-5"></i></a>
+  <a className=""href="https://t.me/joseensoiii"target="_blank" rel="noreferrer noopener"><i className="fa-brands fa-telegram text-3xl ml-5"></i></a>
 </div>
 
           <div className="teck-stack  flex sm:flex-col xl:flex-row items-center justify-between gap-2 xl:mt-0 sm:mt-10 ">
