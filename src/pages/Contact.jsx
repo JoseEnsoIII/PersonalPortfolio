@@ -55,7 +55,7 @@ export const Contact = () => {
               <div>
   <p className="font-bold">Resume</p>
   <a
-    href="https://drive.google.com/file/d/1SxLwH9GfTlx15eJg9eSXWH44q84Ca3Pt/view?usp=drive_link"
+    href="https://drive.google.com/file/d/1f18VDamKlEjyBMeF-kIRCcvSlfwBHckS/view?usp=drive_link"
     className="text-blue-600 whitespace-normal"
     target="_blank"
     rel="noopener noreferrer"
