@@ -279,7 +279,9 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-              A crypto-focused social platform where users share trading insights, favorite coins, and connect via timelines, stories, and messaging, building a vibrant crypto community.{" "}
+              A crypto-focused social platform where users share trading
+              insights, favorite coins, and connect via timelines, stories, and
+              messaging, building a vibrant crypto community.{" "}
             </motion.p>
             <div className="flex gap-5 justify-center">
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
