@@ -55,7 +55,8 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-              Empowering businesses through innovative IT solutions to drive efficiency, growth, and digital transformation.
+              Empowering businesses through innovative IT solutions to drive
+              efficiency, growth, and digital transformation.
             </motion.p>
             <div className="flex gap-5 justify-center">
               <span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
@@ -89,7 +90,6 @@ export const Projects = () => {
             </div>
           </div>
         </div>
-
 
         {/* 2nd Project */}
         <div className="bg-white rounded-xl shadow-md xl:flex xl:flex-row-reverse items-start p-10 gap-5 mt-10">
@@ -150,15 +150,13 @@ export const Projects = () => {
                 Elementor/Divi
               </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-          GHL
+                GHL
               </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 Funnel
               </span>
             </div>
-            <div className="flex gap-5 justify-center">
- 
-            </div>
+            <div className="flex gap-5 justify-center"></div>
             <div className="flex gap-5 items-center justify-center">
               <a
                 className="flex font-semibold items-center justify-between gap-2"
@@ -190,11 +188,10 @@ export const Projects = () => {
                 className="w-full"
               >
                 <img
-  className="w-full h-full object-cover rounded-xl shadow-mmd border-t border-l border-slate-600"
-  src="/images/finheads.jpg" // This is the correct path
-  alt="FinHeads project"
-/>
-
+                  className="w-full h-full object-cover rounded-xl shadow-mmd border-t border-l border-slate-600"
+                  src="/images/finheads.jpg" // This is the correct path
+                  alt="FinHeads project"
+                />
               </motion.div>
             </a>
           </div>
@@ -216,8 +213,11 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-             FinHeads.io is a platform for technical trading, offering tools and insights to help traders analyze markets and make informed decisions. It provides advanced analytics with a user-friendly interface for all skill levels.   </motion.p>
-           
+              FinHeads.io is a platform for technical trading, offering tools
+              and insights to help traders analyze markets and make informed
+              decisions.{" "}
+            </motion.p>
+
             <div className="flex gap-5 justify-center">
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 WordPress
@@ -225,7 +225,6 @@ export const Projects = () => {
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 Elementor
               </span>
-          
             </div>
             <div className="flex gap-5 items-center justify-center">
               <a
@@ -234,9 +233,9 @@ export const Projects = () => {
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                Live Demo <i className="fa-solid fa-share-from-square text-2xl"></i>
+                Live Demo{" "}
+                <i className="fa-solid fa-share-from-square text-2xl"></i>
               </a>
-
             </div>
           </div>
         </div>
@@ -280,10 +279,7 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-              Developing a crypto-centric social platform akin to Instagram,
-              where users share trading insights, favorite coins, and connect
-              through timelines, stories, and messaging, fostering a vibrant
-              community within the crypto space.{" "}
+              A crypto-focused social platform where users share trading insights, favorite coins, and connect via timelines, stories, and messaging, building a vibrant crypto community.{" "}
             </motion.p>
             <div className="flex gap-5 justify-center">
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
@@ -361,7 +357,6 @@ export const Projects = () => {
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 SQL
               </span>
-
             </div>
             <div className="flex gap-5 justify-center">
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
@@ -412,11 +407,9 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-              Step into the realm of crypto fortune with our meticulously
-              crafted signal website. Seamlessly blending innovative design with
-              advanced algorithms, we provide real-time insights and expert
-              analysis, empowering you to make informed decisions in the
-              ever-evolving landscape of cryptocurrency.
+              Explore crypto opportunities with our signal website, combining
+              innovative design and advanced algorithms for real-time insights
+              and expert analysis to help you make informed decisions.
             </motion.p>
             <div className="flex gap-5 justify-center">
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600 ">
@@ -438,7 +431,6 @@ export const Projects = () => {
               >
                 Code <i className="fa-brands fa-github text-2xl"></i>
               </a>
-
             </div>
           </div>
         </div>
@@ -478,7 +470,7 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-             Sample Design of <strong>Iconitrax</strong> Before Final Design
+              Sample Design of <strong>Iconitrax</strong> Before Final Design
             </motion.p>
             <div className="flex gap-5 justify-center">
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
@@ -525,7 +517,9 @@ export const Projects = () => {
             </a>
           </div>
           <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5">
-            <h1 className="text-center font-bold text-[20px]">Cyber Security Projects</h1>
+            <h1 className="text-center font-bold text-[20px]">
+              Cyber Security Projects
+            </h1>
             <motion.p
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -554,10 +548,8 @@ export const Projects = () => {
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 Python
               </span>
-
             </div>
             <div className="flex gap-5 justify-center">
-
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 Networking
               </span>
