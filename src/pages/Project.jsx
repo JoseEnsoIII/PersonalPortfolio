@@ -178,7 +178,7 @@ export const Projects = () => {
           <div className="">
             <a
               className=""
-              href="https://reactfl1x.vercel.app/"
+              href="https://finheads.io/"
               target="_blank"
               rel="noreferrer noopener"
             >
@@ -190,15 +190,16 @@ export const Projects = () => {
                 className="w-full"
               >
                 <img
-                  className="w-full h-full object-cover rounded-xl shadow-mmd border-t border-l border-slate-600"
-                  src="/images/projects/rf.png"
-                  alt=""
-                />
+  className="w-full h-full object-cover rounded-xl shadow-mmd border-t border-l border-slate-600"
+  src="/images/finheads.jpg" // This is the correct path
+  alt="FinHeads project"
+/>
+
               </motion.div>
             </a>
           </div>
           <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5">
-            <h1 className="text-center font-bold text-[20px]">ReactFlix</h1>
+            <h1 className="text-center font-bold text-[20px]">FinHeads</h1>
             <motion.p
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -206,7 +207,7 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-              My Self Project
+              Work Project
             </motion.p>
             <motion.p
               initial={{ opacity: 0, x: -50 }}
@@ -215,46 +216,25 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-              ReactFlix is a free ad-free movie streaming app offering over
-              10,000 movies and TV series, with the option to download content
-              from MoviesCloud for offline viewing, all without the need to
-              register or pay.
-            </motion.p>
-            <motion.p
-              initial={{ opacity: 0, x: -50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
-              viewport={{ once: true }}
-              className="text-center text-gray-500"
-            >
-              Im not done. Im doing my job right now. Im still searching for
-              good ideas for this website.
-            </motion.p>
+             FinHeads.io is a platform for technical trading, offering tools and insights to help traders analyze markets and make informed decisions. It provides advanced analytics with a user-friendly interface for all skill levels.   </motion.p>
+           
             <div className="flex gap-5 justify-center">
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                Mysql
+                WordPress
               </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                Express
+                Elementor
               </span>
-              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                React
-              </span>
-
-            </div>
-            <div className="flex gap-5 justify-center">
-              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                Node.js
-              </span>
+          
             </div>
             <div className="flex gap-5 items-center justify-center">
               <a
                 className="flex font-semibold items-center justify-between gap-2"
-                href="https://github.com/JoseEnsoIII/REACT"
+                href="https://finheads.io/"
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                Code <i className="fa-brands fa-github text-2xl"></i>
+                Live Demo <i className="fa-solid fa-share-from-square text-2xl"></i>
               </a>
 
             </div>
