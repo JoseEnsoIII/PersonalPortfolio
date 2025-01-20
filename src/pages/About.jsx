@@ -84,10 +84,13 @@ export const About = () => {
             in Computer Engineering. I have experience in web development,
             including building WordPress sites and Front-End projects.
           </motion.p>
-          <h1 className="text-black font-bold" onClick={() => toggleAccordion('skills')}>
-            SKILLS 🧑‍💻 ▽
+          <h1
+            className="text-black font-bold"
+            onClick={() => toggleAccordion("skills")}
+          >
+            TECHNICAL SKILLS 🧑‍💻 ▽
           </h1>
-          {openSection === 'skills' && (
+          {openSection === "skills" && (
             <motion.p
               initial="offScreen"
               whileInView="onScreen"
@@ -96,7 +99,8 @@ export const About = () => {
             >
               <ul>
                 <li>
-                  <strong>Frontend:</strong> Vue.js, React.js, Angular.js,   Bootstrap, Vite.js, WordPress.
+                  <strong>Frontend:</strong> Vue.js, React.js, Angular.js, Bootstrap, Vite.Js, WordPress
+                  (DIVI,ELEMENTOR), TailwindCSS, CSS, HTML.
                 </li>
                 <li>
                   <strong>Backend:</strong> Node.js, Express.js.
@@ -105,32 +109,29 @@ export const About = () => {
                   <strong>Databases:</strong> MySQL, MongoDB, Firebase.
                 </li>
                 <li>
-                  <strong>Other Skills:</strong> API Integration, Git, VSCode, GoHighLevel (GHL), Funnel Building.
+                  <strong>Skills:</strong> API Integration, Funnel Building,
+                  Arduino (C++), <strong>Robotics</strong>, Python, Javascript.
+                  <br />
+                  <strong>Tools:</strong> Git, VSCode, GoHighLevel (GHL).
                 </li>
                 <li>
-                  <strong>Hardware/IoT:</strong> Arduino (C++), Robotics.
+                  <strong>Cyber Security Skills:</strong> Threat Detection, Network Security, Incident Response, Risk Assessment, Vulnerability Management, Security Policy Implementation.
                 </li>
                 <li>
-                  <strong>Web Development Tools:</strong> TailwindCSS, CSS, HTML, Elementor, Divi Theme.
+                  <strong>Cyber Security Tools & Protocols:</strong> SIEM (e.g., Splunk, QRadar), IDS/IPS (e.g., Snort, Suricata), Firewalls, VPNs, Network Monitoring Tools (e.g., Wireshark, SolarWinds), OWASP frameworks, TCP/IP, HTTP/HTTPS.
                 </li>
-                <li>
-                  <strong>Cyber Security:</strong> Threat Detection, Network Security, Incident Response, Risk Management.
-                </li>
-                <li>
-                  <strong>Cyber Security Tools:</strong> SIEM, IDS, Firewalls, VPNs, Network Monitoring Tools, OWASP, TCP/IP, HTTP.
-                </li>
-                <li>
-                  <strong>Programming:</strong> Python, Javascript, C++.
-                </li>
+
               </ul>
             </motion.p>
-
           )}
 
-          <h1 className="text-black font-bold" onClick={() => toggleAccordion('workExperience')}>
+          <h1
+            className="text-black font-bold"
+            onClick={() => toggleAccordion("workExperience")}
+          >
             WORK EXPERIENCE 💼 ▽
           </h1>
-          {openSection === 'workExperience' && (
+          {openSection === "workExperience" && (
             <motion.p
               initial="offScreen"
               whileInView="onScreen"
@@ -139,22 +140,28 @@ export const About = () => {
             >
               <ul>
                 <li>
-                  <strong>Metacore Systems Inc.</strong> - Web Developer Intern (March - June 2023)
+                  <strong>Metacore Systems Inc.</strong> - Web Developer Intern
+                  (March - June 2023)
                 </li>
                 <li>
-                  <strong>Iconitrax</strong> - WordPress Developer (September 2023 - February 2024)
+                  <strong>Iconitrax</strong> - WordPress Developer (September
+                  2023 - February 2024)
                 </li>
                 <li>
-                  <strong>Quantum</strong> - Front-End Developer (February 2024 - June 2024)
+                  <strong>Quantum</strong> - Front-End Developer (February 2024
+                  - June 2024)
                 </li>
               </ul>
             </motion.p>
           )}
 
-          <h1 className="text-black font-bold" onClick={() => toggleAccordion('certificates')}>
-            CERTIFICATES  📝 ▽
+          <h1
+            className="text-black font-bold"
+            onClick={() => toggleAccordion("certificates")}
+          >
+            CERTIFICATES 📝 ▽
           </h1>
-          {openSection === 'certificates' && (
+          {openSection === "certificates" && (
             <motion.p
               initial="offScreen"
               whileInView="onScreen"
@@ -169,26 +176,37 @@ export const About = () => {
                   <p className="inline ">Coursera (September 2024 - Ongoing)</p>
                 </li>
                 <li>
-                  <a href="https://drive.google.com/file/d/1luq1vOnEv4jIkTawkj1IKYsVvsN7e43L/view" className="inline  text-blue-500">
-                    <strong>Complete JavaScript, XML, AJAX and React Bootcamp</strong> -
+                  <a
+                    href="https://drive.google.com/file/d/1luq1vOnEv4jIkTawkj1IKYsVvsN7e43L/view"
+                    className="inline  text-blue-500"
+                  >
+                    <strong>
+                      Complete JavaScript, XML, AJAX and React Bootcamp
+                    </strong>{" "}
+                    -
                   </a>
                   <p className="inline ">Udemy (Oct. 2024)</p>
                 </li>
                 <li>
-                  <a href="https://drive.google.com/file/d/1ktfoBIlGz62Dox3s2Y0pJ6qyL75Aganf/view" className="inline  text-blue-500">
+                  <a
+                    href="https://drive.google.com/file/d/1ktfoBIlGz62Dox3s2Y0pJ6qyL75Aganf/view"
+                    className="inline  text-blue-500"
+                  >
                     <strong>Modern Javascript</strong> -
                   </a>
                   <p className="inline ">Udemy (Oct. 18 2024)</p>
                 </li>
                 <li>
-                  <a href="https://drive.google.com/file/d/166EGotfwtT3YArRjAPhiFuQzRyLjwosm/view" className="inline  text-blue-500">
+                  <a
+                    href="https://drive.google.com/file/d/166EGotfwtT3YArRjAPhiFuQzRyLjwosm/view"
+                    className="inline  text-blue-500"
+                  >
                     <strong>NLSC Basic Korean Class</strong> -
                   </a>
                   <p className="inline ">NLSC (Oct - Nov 2024)</p>
                 </li>
               </ul>
             </motion.p>
-
           )}
         </motion.div>
       </motion.div>
