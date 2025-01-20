@@ -512,7 +512,7 @@ export const Projects = () => {
               >
                 <img
                   className="w-full h-full object-cover rounded-xl shadow-mmd border-t border-l border-slate-600"
-                  src="public\images\CSA.jpg"
+                  src="public\images\projects\csa.jpg"
                   alt=""
                 />
               </motion.div>
@@ -529,7 +529,7 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-              I'm still studying it in my online course don't mind the photo
+              I am currently self-studying Google Cybersecurity on Coursera (September 2024 - Ongoing).
             </motion.p>
             <div className="flex gap-5 justify-center">
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
