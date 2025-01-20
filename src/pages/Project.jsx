@@ -523,15 +523,6 @@ export const Projects = () => {
               Cyber Security Projects
             </h1>
             <motion.p
-              initial={{ opacity: 0, x: 50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
-              viewport={{ once: true }}
-              className="text-center text-gray-500"
-            >
-              Own Project
-            </motion.p>
-            <motion.p
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
