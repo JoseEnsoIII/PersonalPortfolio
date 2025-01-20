@@ -85,111 +85,111 @@ export const About = () => {
             including building WordPress sites and Front-End projects.
           </motion.p>
           <h1 className="text-black font-bold" onClick={() => toggleAccordion('skills')}>
-        SKILLS 🧑‍💻 ▽
-      </h1>
-      {openSection === 'skills' && (
-        <motion.p
-        initial="offScreen"
-        whileInView="onScreen"
-        viewport={{ once: true, amount: 0.8 }}
-        className="opacity-60"
-      >
-        <ul>
-          <li>
-            <strong>Frontend:</strong> Vue.js, React.js, Angular.js,   Bootstrap, Vite.js, WordPress.
-          </li>
-          <li>
-            <strong>Backend:</strong> Node.js, Express.js.
-          </li>
-          <li>
-            <strong>Databases:</strong> MySQL, MongoDB, Firebase.
-          </li>
-          <li>
-            <strong>Other Skills:</strong> API Integration, Git, VSCode, GoHighLevel (GHL), Funnel Building.
-          </li>
-          <li>
-            <strong>Hardware/IoT:</strong> Arduino (C++), Robotics.
-          </li>
-          <li>
-            <strong>Web Development Tools:</strong> TailwindCSS, CSS, HTML, Elementor, Divi Theme.
-          </li>
-          <li>
-            <strong>Cyber Security:</strong> Threat Detection, Network Security, Incident Response, Risk Management.
-          </li>
-          <li>
-            <strong>Cyber Security Tools:</strong> SIEM, IDS, Firewalls, VPNs, Network Monitoring Tools, OWASP, TCP/IP, HTTP.
-          </li>
-          <li>
-            <strong>Programming:</strong> Python, Javascript, C++.   
-          </li>
-        </ul>
-      </motion.p>
-      
-      )}
-      
-      <h1 className="text-black font-bold" onClick={() => toggleAccordion('workExperience')}>
-        WORK EXPERIENCE 💼 ▽
-      </h1>
-      {openSection === 'workExperience' && (
-        <motion.p
-          initial="offScreen"
-          whileInView="onScreen"
-          viewport={{ once: true, amount: 0.8 }}
-          className="opacity-60"
-        >
-          <ul>
-            <li>
-              <strong>Metacore Systems Inc.</strong> - Web Developer Intern (March - June 2023)
-            </li>
-            <li>
-              <strong>Iconitrax</strong> - WordPress Developer (September 2023 - February 2024)
-            </li>
-            <li>
-              <strong>Quantum</strong> - Front-End Developer (February 2024 - June 2024)
-            </li>
-          </ul>
-        </motion.p>
-      )}
+            SKILLS 🧑‍💻 ▽
+          </h1>
+          {openSection === 'skills' && (
+            <motion.p
+              initial="offScreen"
+              whileInView="onScreen"
+              viewport={{ once: true, amount: 0.8 }}
+              className="opacity-60"
+            >
+              <ul>
+                <li>
+                  <strong>Frontend:</strong> Vue.js, React.js, Angular.js,   Bootstrap, Vite.js, WordPress.
+                </li>
+                <li>
+                  <strong>Backend:</strong> Node.js, Express.js.
+                </li>
+                <li>
+                  <strong>Databases:</strong> MySQL, MongoDB, Firebase.
+                </li>
+                <li>
+                  <strong>Other Skills:</strong> API Integration, Git, VSCode, GoHighLevel (GHL), Funnel Building.
+                </li>
+                <li>
+                  <strong>Hardware/IoT:</strong> Arduino (C++), Robotics.
+                </li>
+                <li>
+                  <strong>Web Development Tools:</strong> TailwindCSS, CSS, HTML, Elementor, Divi Theme.
+                </li>
+                <li>
+                  <strong>Cyber Security:</strong> Threat Detection, Network Security, Incident Response, Risk Management.
+                </li>
+                <li>
+                  <strong>Cyber Security Tools:</strong> SIEM, IDS, Firewalls, VPNs, Network Monitoring Tools, OWASP, TCP/IP, HTTP.
+                </li>
+                <li>
+                  <strong>Programming:</strong> Python, Javascript, C++.
+                </li>
+              </ul>
+            </motion.p>
 
-      <h1 className="text-black font-bold" onClick={() => toggleAccordion('certificates')}>
-        CERTIFICATES  📝 ▽
-      </h1>
-      {openSection === 'certificates' && (
-       <motion.p
-       initial="offScreen"
-       whileInView="onScreen"
-       viewport={{ once: true, amount: 0.8 }}
-       className="opacity-60"
-     >
-       <ul>
-         <li>
-           <a className="inline  text-blue-500">
-             <strong>Google Cybersecurity</strong> - 
-           </a>
-           <p className="inline ">Coursera (September 2024 - Ongoing)</p>
-         </li>
-         <li>
-           <a className="inline  text-blue-500">
-             <strong>Advance React</strong> - 
-           </a>
-           <p className="inline ">Udemy (Oct. 2024)</p>
-         </li>
-         <li>
-           <a href="https://drive.google.com/file/d/166EGotfwtT3YArRjAPhiFuQzRyLjwosm/view" className="inline  text-blue-500">
-             <strong>Modern Javascript</strong> - 
-           </a>
-           <p className="inline ">Udemy (Oct. 18 2024)</p>
-         </li>
-         <li>
-           <a href="https://drive.google.com/file/d/166EGotfwtT3YArRjAPhiFuQzRyLjwosm/view" className="inline  text-blue-500">
-             <strong>NLSC Basic Korean Class</strong> - 
-           </a>
-           <p className="inline ">NLSC (Oct - Nov 2024)</p>
-         </li>
-       </ul>
-     </motion.p>
-     
-      )}
+          )}
+
+          <h1 className="text-black font-bold" onClick={() => toggleAccordion('workExperience')}>
+            WORK EXPERIENCE 💼 ▽
+          </h1>
+          {openSection === 'workExperience' && (
+            <motion.p
+              initial="offScreen"
+              whileInView="onScreen"
+              viewport={{ once: true, amount: 0.8 }}
+              className="opacity-60"
+            >
+              <ul>
+                <li>
+                  <strong>Metacore Systems Inc.</strong> - Web Developer Intern (March - June 2023)
+                </li>
+                <li>
+                  <strong>Iconitrax</strong> - WordPress Developer (September 2023 - February 2024)
+                </li>
+                <li>
+                  <strong>Quantum</strong> - Front-End Developer (February 2024 - June 2024)
+                </li>
+              </ul>
+            </motion.p>
+          )}
+
+          <h1 className="text-black font-bold" onClick={() => toggleAccordion('certificates')}>
+            CERTIFICATES  📝 ▽
+          </h1>
+          {openSection === 'certificates' && (
+            <motion.p
+              initial="offScreen"
+              whileInView="onScreen"
+              viewport={{ once: true, amount: 0.8 }}
+              className="opacity-60"
+            >
+              <ul>
+                <li>
+                  <a className="inline  text-blue-500">
+                    <strong>Google Cybersecurity</strong> -
+                  </a>
+                  <p className="inline ">Coursera (September 2024 - Ongoing)</p>
+                </li>
+                <li>
+                  <a className="inline  text-blue-500">
+                    <strong>Advance React</strong> -
+                  </a>
+                  <p className="inline ">Udemy (Oct. 2024)</p>
+                </li>
+                <li>
+                  <a href="https://drive.google.com/file/d/166EGotfwtT3YArRjAPhiFuQzRyLjwosm/view" className="inline  text-blue-500">
+                    <strong>Modern Javascript</strong> -
+                  </a>
+                  <p className="inline ">Udemy (Oct. 18 2024)</p>
+                </li>
+                <li>
+                  <a href="https://drive.google.com/file/d/166EGotfwtT3YArRjAPhiFuQzRyLjwosm/view" className="inline  text-blue-500">
+                    <strong>NLSC Basic Korean Class</strong> -
+                  </a>
+                  <p className="inline ">NLSC (Oct - Nov 2024)</p>
+                </li>
+              </ul>
+            </motion.p>
+
+          )}
         </motion.div>
       </motion.div>
     </section>

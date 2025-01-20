@@ -512,9 +512,10 @@ export const Projects = () => {
               >
                 <img
                   className="w-full h-full object-cover rounded-xl shadow-mmd border-t border-l border-slate-600"
-                  src="public\images\projects\csa.jpg"
+                  src="/images/projects/csa.jpg"  // Use a leading slash
                   alt=""
                 />
+
               </motion.div>
             </a>
           </div>
