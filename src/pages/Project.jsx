@@ -512,7 +512,7 @@ export const Projects = () => {
               >
                 <img
                   className="w-full h-full object-cover rounded-xl shadow-mmd border-t border-l border-slate-600"
-                  src="/images/projects/ta.png"
+                  src="public\images\CSA.jpg"
                   alt=""
                 />
               </motion.div>
@@ -562,7 +562,7 @@ export const Projects = () => {
             <div className="flex gap-5 items-center justify-center">
               <a
                 className="flex font-semibold items-center justify-between gap-2"
-                href="https://travel-website-ph.vercel.app/"
+                href="https://drive.google.com/drive/folders/15jTLtDfHzT83P3VccfjEtxMG738Dk8oz?usp=sharing"
                 target="_blank"
                 rel="noreferrer noopener"
               >

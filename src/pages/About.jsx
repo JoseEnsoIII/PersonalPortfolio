@@ -155,35 +155,40 @@ export const About = () => {
         CERTIFICATES  📝 ▽
       </h1>
       {openSection === 'certificates' && (
-        <motion.p
-          initial="offScreen"
-          whileInView="onScreen"
-          viewport={{ once: true, amount: 0.8 }}
-          className="opacity-60"
-        >
-          <ul>
-            <li>
-              <a>
-                <strong>Google Cybersecurity</strong> - Coursera (September 2024 - Ongoing)
-              </a>
-            </li>
-            <li>
-              <a>
-                <strong>Advance React</strong> - Udemy (Oct. 2024)
-              </a>
-            </li>
-            <li>
-              <a href="https://drive.google.com/file/d/166EGotfwtT3YArRjAPhiFuQzRyLjwosm/view">
-                <strong>Modern Javascript</strong> - Udemy (Oct. 18 2024)
-              </a>
-            </li>
-            <li>
-              <a href="https://drive.google.com/file/d/166EGotfwtT3YArRjAPhiFuQzRyLjwosm/view">
-                <strong>NLSC Basic Korean Class</strong> - NLSC (Oct - Nov 2024)
-              </a>
-            </li>
-          </ul>
-        </motion.p>
+       <motion.p
+       initial="offScreen"
+       whileInView="onScreen"
+       viewport={{ once: true, amount: 0.8 }}
+       className="opacity-60"
+     >
+       <ul>
+         <li>
+           <a className="inline  text-blue-500">
+             <strong>Google Cybersecurity</strong> - 
+           </a>
+           <p className="inline ">Coursera (September 2024 - Ongoing)</p>
+         </li>
+         <li>
+           <a className="inline  text-blue-500">
+             <strong>Advance React</strong> - 
+           </a>
+           <p className="inline ">Udemy (Oct. 2024)</p>
+         </li>
+         <li>
+           <a href="https://drive.google.com/file/d/166EGotfwtT3YArRjAPhiFuQzRyLjwosm/view" className="inline  text-blue-500">
+             <strong>Modern Javascript</strong> - 
+           </a>
+           <p className="inline ">Udemy (Oct. 18 2024)</p>
+         </li>
+         <li>
+           <a href="https://drive.google.com/file/d/166EGotfwtT3YArRjAPhiFuQzRyLjwosm/view" className="inline  text-blue-500">
+             <strong>NLSC Basic Korean Class</strong> - 
+           </a>
+           <p className="inline ">NLSC (Oct - Nov 2024)</p>
+         </li>
+       </ul>
+     </motion.p>
+     
       )}
         </motion.div>
       </motion.div>
