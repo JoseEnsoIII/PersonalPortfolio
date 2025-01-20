@@ -169,13 +169,13 @@ export const About = () => {
                   <p className="inline ">Coursera (September 2024 - Ongoing)</p>
                 </li>
                 <li>
-                  <a className="inline  text-blue-500">
-                    <strong>Advance React</strong> -
+                  <a href="https://drive.google.com/file/d/1luq1vOnEv4jIkTawkj1IKYsVvsN7e43L/view" className="inline  text-blue-500">
+                    <strong>Complete JavaScript, XML, AJAX and React Bootcamp</strong> -
                   </a>
                   <p className="inline ">Udemy (Oct. 2024)</p>
                 </li>
                 <li>
-                  <a href="https://drive.google.com/file/d/166EGotfwtT3YArRjAPhiFuQzRyLjwosm/view" className="inline  text-blue-500">
+                  <a href="https://drive.google.com/file/d/1ktfoBIlGz62Dox3s2Y0pJ6qyL75Aganf/view" className="inline  text-blue-500">
                     <strong>Modern Javascript</strong> -
                   </a>
                   <p className="inline ">Udemy (Oct. 18 2024)</p>
