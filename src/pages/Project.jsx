@@ -46,7 +46,7 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-              Internship Project
+              Internship Project | Front-End
             </motion.p>
             <motion.p
               initial={{ opacity: 0, x: 50 }}
@@ -124,7 +124,7 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-              Work Project
+              Work Project | Front-End
             </motion.p>
             <motion.p
               initial={{ opacity: 0, x: 50 }}
@@ -204,7 +204,7 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-              Work Project
+              Work Project  | Front-End
             </motion.p>
             <motion.p
               initial={{ opacity: 0, x: -50 }}
@@ -270,7 +270,7 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-              Work Project
+              Work Project | Front-End 
             </motion.p>
             <motion.p
               initial={{ opacity: 0, x: 50 }}
@@ -400,7 +400,7 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-              Work Project
+              Work Project | Front-End 
             </motion.p>
             <motion.p
               initial={{ opacity: 0, x: 50 }}
@@ -463,17 +463,23 @@ export const Projects = () => {
           </div>
           <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5">
             <h1 className="text-center font-bold text-[20px]">
-              UI/UX Web Design
+            UI/UX Design Portfolio
             </h1>
             <motion.p
-              initial={{ opacity: 0, x: 50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
-              viewport={{ once: true }}
-              className="text-center text-gray-500"
-            >
-              Sample Design of <strong>Iconitrax</strong> Before Final Design
-            </motion.p>
+  initial={{ opacity: 0, x: 50 }}
+  whileInView={{ opacity: 1, x: 0 }}
+  transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+  viewport={{ once: true }}
+  className="text-center text-gray-500"
+>
+All my <strong>UI/UX</strong> designs are uploaded here, including:
+</motion.p>
+<ul className="text-center text-gray-500 list-disc list-inside">
+  <li>Figma Files</li>
+  <li>Live Demos</li>
+  <li>Prototype <br />Iterations</li>
+</ul>
+
             <div className="flex gap-5 justify-center">
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 FIGMA

@@ -84,6 +84,7 @@ export const About = () => {
             in Computer Engineering. I have experience in web development,
             including building WordPress sites and Front-End projects.
           </motion.p>
+          
           <h1
             className="text-black font-bold"
             onClick={() => toggleAccordion("skills")}
@@ -99,8 +100,9 @@ export const About = () => {
             >
               <ul>
                 <li>
-                  <strong>Frontend:</strong> Vue.js, React.js, Angular.js, Bootstrap, Vite.Js, WordPress
-                  (DIVI,ELEMENTOR), TailwindCSS, CSS, HTML.
+                  <strong>Frontend:</strong> Vue.js, React.js, Angular.js,
+                  Bootstrap, Vite.Js, WordPress (DIVI,ELEMENTOR), TailwindCSS,
+                  CSS, HTML.
                 </li>
                 <li>
                   <strong>Backend:</strong> Node.js, Express.js.
@@ -110,17 +112,22 @@ export const About = () => {
                 </li>
                 <li>
                   <strong>Skills:</strong> API Integration, Funnel Building,
-                  Arduino (C++), <strong>Robotics</strong>, Python, Javascript.
+                  Arduino (C++), <strong>Robotics</strong>, Python, JavaScript,
+                  SEO.
                   <br />
                   <strong>Tools:</strong> Git, VSCode, GoHighLevel (GHL).
                 </li>
                 <li>
-                  <strong>Cyber Security Skills:</strong> Threat Detection, Network Security, Incident Response, Risk Assessment, Vulnerability Management, Security Policy Implementation.
+                  <strong>Cyber Security Skills:</strong> Threat Detection,
+                  Network Security, Incident Response, Risk Assessment,
+                  Vulnerability Management, Security Policy Implementation.
                 </li>
                 <li>
-                  <strong>Cyber Security Tools & Protocols:</strong> SIEM (e.g., Splunk, QRadar), IDS/IPS (e.g., Snort, Suricata), Firewalls, VPNs, Network Monitoring Tools (e.g., Wireshark, SolarWinds), OWASP frameworks, TCP/IP, HTTP/HTTPS.
+                  <strong>Cyber Security Tools & Protocols:</strong> SIEM (e.g.,
+                  Splunk, QRadar), IDS/IPS (e.g., Snort, Suricata), Firewalls,
+                  VPNs, Network Monitoring Tools (e.g., Wireshark, SolarWinds),
+                  OWASP frameworks, TCP/IP, HTTP/HTTPS.
                 </li>
-
               </ul>
             </motion.p>
           )}
@@ -140,15 +147,15 @@ export const About = () => {
             >
               <ul>
                 <li>
-                  <strong>Metacore Systems Inc.</strong> - Web Developer Intern
+                  <strong>Metacore Systems Inc.</strong>-<br /> Web Developer Intern
                   (March - June 2023)
                 </li>
                 <li>
-                  <strong>Iconitrax</strong> - WordPress Developer (September
-                  2023 - February 2024)
+                  <strong>Iconitrax</strong> -  WordPress Developer (Sept
+                  2023 - Feb 2024)
                 </li>
                 <li>
-                  <strong>Quantum</strong> - Front-End Developer (February 2024
+                  <strong>Quantum</strong> -  Front-End Developer (Feb 2024
                   - June 2024)
                 </li>
               </ul>
@@ -173,7 +180,7 @@ export const About = () => {
                   <a className="inline  text-blue-500">
                     <strong>Google Cybersecurity</strong> -
                   </a>
-                  <p className="inline ">Coursera (September 2024 - Ongoing)</p>
+                  <p className="inline ">Coursera (Sept 2024 - Ongoing)</p>
                 </li>
                 <li>
                   <a
