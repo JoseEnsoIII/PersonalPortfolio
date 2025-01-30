@@ -303,6 +303,15 @@ export const Projects = () => {
               >
                 Code <i className="fa-brands fa-github text-2xl"></i>
               </a>
+              <a
+                className="flex font-semibold items-center justify-between gap-2"
+                href="https://saturnpay.io/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Live Demo{" "}
+                <i className="fa-solid fa-share-from-square text-2xl"></i>
+              </a>
             </div>
           </div>
         </div>
