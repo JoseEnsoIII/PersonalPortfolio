@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
+import { Code, FileCode, Link, Zap, Smartphone } from "lucide-react";
 
 export const About = () => {
   const [openSection, setOpenSection] = useState(null);
@@ -75,92 +76,30 @@ export const About = () => {
             A dedicated Frontend Developer based in Valenzuela, Philippines 📍
           </h2>
           <motion.p
-            initial="offScreen"
-            whileInView="onScreen"
-            viewport={{ once: true, amount: 0.8 }}
-            className="opacity-60"
-          >
-            I'm a Frontend Developer from Valenzuela, Philippines, with a degree
-            in Computer Engineering. I have experience in web development,
-            including building WordPress sites and Front-End projects.
-          </motion.p>
-          
-          <h1
-            className="text-black font-bold"
-            onClick={() => toggleAccordion("skills")}
-          >
-            TECHNICAL SKILLS 🧑‍💻 ▽
-          </h1>
-          {openSection === "skills" && (
-            <motion.p
-              initial="offScreen"
-              whileInView="onScreen"
-              viewport={{ once: true, amount: 0.8 }}
-              className="opacity-60"
-            >
-              <ul>
-                <li>
-                  <strong>Frontend:</strong> Vue.js, React.js, Angular.js,
-                  Bootstrap, Vite.Js, WordPress (DIVI,ELEMENTOR), TailwindCSS,
-                  CSS, HTML.
-                </li>
-                <li>
-                  <strong>Backend:</strong> Node.js, Express.js.
-                </li>
-                <li>
-                  <strong>Databases:</strong> MySQL, MongoDB, Firebase.
-                </li>
-                <li>
-                  <strong>Skills:</strong> API Integration, Funnel Building,
-                  Arduino (C++), <strong>Robotics</strong>, Python, JavaScript,
-                  SEO.
-                  <br />
-                  <strong>Tools:</strong> Git, VSCode, GoHighLevel (GHL).
-                </li>
-                <li>
-                  <strong>Cyber Security Skills:</strong> Threat Detection,
-                  Network Security, Incident Response, Risk Assessment,
-                  Vulnerability Management, Security Policy Implementation.
-                </li>
-                <li>
-                  <strong>Cyber Security Tools & Protocols:</strong> SIEM (e.g.,
-                  Splunk, QRadar), IDS/IPS (e.g., Snort, Suricata), Firewalls,
-                  VPNs, Network Monitoring Tools (e.g., Wireshark, SolarWinds),
-                  OWASP frameworks, TCP/IP, HTTP/HTTPS.
-                </li>
-              </ul>
-            </motion.p>
-          )}
-
-          <h1
-            className="text-black font-bold"
-            onClick={() => toggleAccordion("workExperience")}
-          >
-            WORK EXPERIENCE 💼 ▽
-          </h1>
-          {openSection === "workExperience" && (
-            <motion.p
-              initial="offScreen"
-              whileInView="onScreen"
-              viewport={{ once: true, amount: 0.8 }}
-              className="opacity-60"
-            >
-              <ul>
-                <li>
-                  <strong>Metacore Systems Inc.</strong>-<br /> Web Developer Intern
-                  (March - June 2023)
-                </li>
-                <li>
-                  <strong>Iconitrax</strong> -  WordPress Developer (Sept
-                  2023 - Feb 2024)
-                </li>
-                <li>
-                  <strong>Quantum</strong> -  Front-End Developer (Feb 2024
-                  - June 2024)
-                </li>
-              </ul>
-            </motion.p>
-          )}
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, ease: "easeOut" }}
+      viewport={{ once: true, amount: 0.8 }}
+      className="sm:text-center xl:text-start text-gray-800 tracking-wide text-[16px] sm:mt-0  leading-6"
+    >
+      <strong>Experienced Frontend Developer | React.js | Vue.js | WordPress</strong>  
+      <br />
+      I specialize in modern, responsive, and high-performance websites using React.js, Vue.js, and WordPress to create sleek, user-friendly interfaces.  
+      <br /><br />
+      <strong>What I Offer:</strong>  
+      <br />
+      <Code size={16} className="inline-block mr-2" /> Custom Web Development – React.js, Vue.js, Angular.js  
+      <br />
+      <Code size={16} className="inline-block mr-2" /> WordPress Development – Elementor, Divi, custom coding  
+      <br />
+      <FileCode size={16} className="inline-block mr-2" /> Figma to Web – Convert designs into functional websites  
+      <br />
+      <Link size={16} className="inline-block mr-2" /> API Integration – Seamless third-party connections  
+      <br />
+      <Zap size={16} className="inline-block mr-2" /> Performance Optimization – Faster load times  
+      <br />
+      <Smartphone size={16} className="inline-block mr-2" /> Responsive Design – Tailwind CSS, Bootstrap, CSS Grid  
+    </motion.p>
 
           <h1
             className="text-black font-bold"

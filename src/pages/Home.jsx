@@ -48,7 +48,7 @@ export const Home = () => {
   whileInView="onScreen" 
   className="sm:text-center xl:text-start text-gray-800 tracking-wide text-[16px] sm:mt-0 md:mt-10 leading-6"
 >
-  Hi, I'm Jose C. Enso III, a React.js Developer, WordPress Developer, and Computer Engineer based in Valenzuela, Philippines. 📍 I'm currently studying Cyber Security .
+  Hi, I'm Jose C. Enso III | 호세 엔소 삼세 , a React.js Developer, WordPress Developer, and Computer Engineer based in Valenzuela, Philippines. 📍 I'm currently studying Cyber Security .
 </motion.p>
 
           <div className="mt-6 flex items-center sm:justify-center xl:justify-start">
