@@ -73,7 +73,7 @@ export const About = () => {
         >
           <h1 className="text-blue-400 font-bold">ABOUT ME 😉</h1>
           <h2 className="text-2xl text-slate-900 font-bold sm:text-center md:text-start">
-            A dedicated Frontend Developer based in Valenzuela, Philippines 📍
+            A dedicated Remote Web Developer based in Valenzuela, Philippines 📍
           </h2>
           <motion.p
       initial={{ opacity: 0, y: 20 }}

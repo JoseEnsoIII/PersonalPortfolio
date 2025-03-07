@@ -153,7 +153,7 @@ export const Projects = () => {
                 GHL
               </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                Funnel
+                Funneling
               </span>
             </div>
             <div className="flex gap-5 justify-center"></div>
@@ -224,6 +224,8 @@ export const Projects = () => {
               </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 Elementor
+              </span><span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+                Payment Integration
               </span>
             </div>
             <div className="flex gap-5 items-center justify-center">
