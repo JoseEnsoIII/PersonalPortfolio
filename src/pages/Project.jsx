@@ -16,7 +16,7 @@ export const Projects = () => {
           <div className="">
             <a
               className=""
-              href="https://www.metacoresystemsinc.com"
+              href="*"
               target="_blank"
               rel="noreferrer noopener"
             >
@@ -29,7 +29,7 @@ export const Projects = () => {
               >
                 <img
                   className="w-full h-full object-cover rounded-xl shadow-mmd border-t border-l border-slate-600"
-                  src="/images/projects/project2.PNG"
+                  src="/images/projects/linguaflow.jpg"
                   alt=""
                 />
               </motion.div>
@@ -37,7 +37,7 @@ export const Projects = () => {
           </div>
           <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5">
             <h1 className="text-center font-bold text-[20px]">
-              IT Solutions Company
+              LinguaFlow
             </h1>
             <motion.p
               initial={{ opacity: 0, x: 50 }}
@@ -46,7 +46,7 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-              Internship Project | Front-End
+              Self Project | Full Stack
             </motion.p>
             <motion.p
               initial={{ opacity: 0, x: 50 }}
@@ -55,18 +55,28 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-              Empowering businesses through innovative IT solutions to drive
-              efficiency, growth, and digital transformation.
+              Empowering language learners through innovative education solutions to unlock global communication, cultural connection, and personal growth.
             </motion.p>
             <div className="flex gap-5 justify-center">
-              <span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
-                React
+            <span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
+                <strong>P</strong>ostgres
               </span>
               <span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
-                Vite.Js
+                <strong>E</strong>xpress.js
               </span>
               <span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
-                Tailwind
+                <strong>R</strong>eact
+              </span>
+            </div>
+            <div className="flex gap-5 justify-center">
+            <span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
+                <strong>N</strong>ode.Js
+              </span>
+              <span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
+                <strong>G</strong>oogle Auth
+              </span>
+              <span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
+                <strong>A</strong>PI
               </span>
             </div>
             <div className="flex gap-5 items-center justify-center">
