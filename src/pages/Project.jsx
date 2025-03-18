@@ -86,7 +86,7 @@ export const Projects = () => {
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                Code <i className="fa-brands fa-github text-2xl"></i>
+                FlowChart <i className="fa-brands fa-github text-2xl"></i>
               </a>
               <a
                 className="flex font-semibold items-center justify-between gap-2"
