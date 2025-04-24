@@ -130,7 +130,7 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-              Work Project | Front-End
+              Work Project | WordPress
             </motion.p>
             <motion.p
               initial={{ opacity: 0, x: 50 }}
@@ -210,7 +210,7 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-              Work Project  | Front-End
+              Work Project  | WordPress
             </motion.p>
             <motion.p
               initial={{ opacity: 0, x: -50 }}
