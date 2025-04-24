@@ -77,6 +77,9 @@ export const Projects = () => {
               </span><span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
                 <strong>A</strong>I Chatbot
               </span>
+            </div>
+            <div className="flex gap-5 justify-center">
+             
               <span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
                 <strong>A</strong>PI
               </span>
@@ -158,6 +161,10 @@ export const Projects = () => {
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 GHL
               </span>
+              
+            </div>
+            <div className="flex gap-5 justify-center">
+             
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 Funneling
               </span>
@@ -230,7 +237,10 @@ export const Projects = () => {
               </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 Elementor
-              </span><span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+              </span>
+            </div>
+            <div className="flex gap-5 justify-center">
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 Payment Integration
               </span>
             </div>
