@@ -75,31 +75,34 @@ export const About = () => {
           <h2 className="text-2xl text-slate-900 font-bold sm:text-center md:text-start">
             A dedicated Remote Web Developer based in Valenzuela, Philippines 📍
           </h2>
-          <motion.p
-      initial={{ opacity: 0, y: 20 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6, ease: "easeOut" }}
-      viewport={{ once: true, amount: 0.8 }}
-      className="sm:text-center xl:text-start text-gray-800 tracking-wide text-[16px] sm:mt-0  leading-6"
-    >
-      <strong>Experienced Frontend Developer | React.js | Vue.js | WordPress</strong>  
-      <br />
-      I specialize in modern, responsive, and high-performance websites using React.js, Vue.js, and WordPress to create sleek, user-friendly interfaces.  
-      <br /><br />
-      <strong>What I Offer:</strong>  
-      <br />
-      <Code size={16} className="inline-block mr-2" /> Custom Web Development – React.js, Vue.js, Angular.js  
-      <br />
-      <Code size={16} className="inline-block mr-2" /> WordPress Development – Elementor, Divi, custom coding  
-      <br />
-      <FileCode size={16} className="inline-block mr-2" /> Figma to Web – Convert designs into functional websites  
-      <br />
-      <Link size={16} className="inline-block mr-2" /> API Integration – Seamless third-party connections  
-      <br />
-      <Zap size={16} className="inline-block mr-2" /> Performance Optimization – Faster load times  
-      <br />
-      <Smartphone size={16} className="inline-block mr-2" /> Responsive Design – Tailwind CSS, Bootstrap, CSS Grid  
-    </motion.p>
+         <motion.p
+  initial={{ opacity: 0, y: 20 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6, ease: "easeOut" }}
+  viewport={{ once: true, amount: 0.8 }}
+  className="sm:text-center xl:text-start text-gray-800 tracking-wide text-[16px] sm:mt-0 leading-6"
+>
+  <strong>Experienced Frontend Developer | React.js | Vue.js | WordPress</strong>  
+  <br />
+  I specialize in modern, responsive, and high-performance websites using React.js, Vue.js, and WordPress to create sleek, user-friendly interfaces.  
+  <br /><br />
+  <strong>What I Offer:</strong>  
+  <br />
+  <Code size={16} className="inline-block mr-2" /> Custom Web Development – React.js, Vue.js, Angular.js  
+  <br />
+  <Code size={16} className="inline-block mr-2" /> WordPress Development – Elementor, Divi, custom coding  
+  <br />
+  <Code size={16} className="inline-block mr-2" /> Custom Shopify Development – Themes, Liquid, and Storefront Setup  
+  <br />
+  <FileCode size={16} className="inline-block mr-2" /> Figma to Web – Convert designs into functional websites  
+  <br />
+  <Link size={16} className="inline-block mr-2" /> API Integration – Seamless third-party connections  
+  <br />
+  <Zap size={16} className="inline-block mr-2" /> Performance Optimization – Faster load times  
+  <br />
+  <Smartphone size={16} className="inline-block mr-2" /> Responsive Design – Tailwind CSS, Bootstrap, CSS Grid  
+</motion.p>
+
 
           <h1
             className="text-black font-bold"

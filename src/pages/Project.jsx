@@ -597,6 +597,78 @@ export const Projects = () => {
             </div>
           </div>
         </div>
+
+         <div className="bg-white rounded-xl shadow-md xl:flex items-start p-10 gap-5 mt-10">
+          <div className="">
+            <a
+              className=""
+              href="https://my-crypto-funds.vercel.app/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <motion.div
+                initial={{ opacity: 0, x: -50 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+                viewport={{ once: true }}
+                className="w-full"
+              >
+                <img
+                  className="w-full h-full object-cover rounded-xl shadow-mmd border-t border-l border-slate-600"
+                  src="/images/projects/mcf.jpg"
+                  alt=""
+                />
+              </motion.div>
+            </a>
+          </div>
+          <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5">
+            <h1 className="text-center font-bold text-[20px]">
+              My CryptoFunds
+            </h1>
+            <motion.p
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+              viewport={{ once: true }}
+              className="text-center text-gray-500"
+            >
+              Landing page for a crypto trading website, exchange platform, and live trading.
+            </motion.p>
+          
+
+            <div className="flex gap-5 justify-center">
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+                React
+              </span>
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+                TailwindCSS
+              </span>
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+                API
+              </span>
+              
+            </div>
+             <div className="flex gap-5 justify-center">
+             
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+                Trading View 
+              </span>
+              
+            </div>
+            <div className="flex gap-5 items-center justify-center">
+              <a
+                className="flex font-semibold items-center justify-between gap-2"
+                href="https://my-crypto-funds.vercel.app/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Live Demo{" "}
+                <i className="fa-solid fa-share-from-square text-2xl"></i>
+              </a>
+            </div>
+            <div className="flex gap-5 items-center justify-center"></div>
+          </div>
+        </div>
       </div>
     </section>
   );
